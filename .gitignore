@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+
+.env
+
+vector_db/
+logs/
+
+data/processed/
+data/chunks/
+
+.DS_Store

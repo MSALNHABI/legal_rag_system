@@ -1,0 +1,2186 @@
+{
+  "test_set_file": "data\\evaluation\\test_set.json",
+  "k": 10,
+  "methods": [
+    {
+      "method": "semantic",
+      "k": 10,
+      "queries_evaluated": 25,
+      "mean_recall_at_10": 0.99,
+      "mean_mrr_at_10": 0.9267,
+      "top_1_accuracy": 0.88,
+      "mean_first_relevant_rank": 1.2,
+      "perfect_queries": 24,
+      "zero_recall_queries": 0,
+      "per_query_results": [
+        {
+          "id": "q001",
+          "query": "متى يستحق العامل مكافأة نهاية الخدمة؟",
+          "relevant_chunk_ids": [
+            "labor_law__article_084__chunk_001",
+            "labor_law__article_085__chunk_001",
+            "labor_law__article_086__chunk_001",
+            "labor_law__article_087__chunk_001"
+          ],
+          "retrieved_chunk_ids": [
+            "labor_law__article_084__chunk_001",
+            "labor_law__article_085__chunk_001",
+            "labor_law__article_088__chunk_001",
+            "labor_law__article_087__chunk_001",
+            "labor_law__article_077__chunk_001",
+            "labor_law__article_111__chunk_001",
+            "labor_law__article_064__chunk_001",
+            "labor_law__article_076__chunk_001",
+            "labor_law__article_080__chunk_001",
+            "labor_law__article_079__chunk_001"
+          ],
+          "recall_at_10": 0.75,
+          "mrr_at_10": 1.0,
+          "top_1_accuracy": 1.0,
+          "first_relevant_rank": 1,
+          "hit_ids": [
+            "labor_law__article_084__chunk_001",
+            "labor_law__article_085__chunk_001",
+            "labor_law__article_087__chunk_001"
+          ],
+          "missed_ids": [
+            "labor_law__article_086__chunk_001"
+          ],
+          "passed": true
+        },
+        {
+          "id": "q002",
+          "query": "كيف تحسب مكافأة نهاية الخدمة عند انتهاء علاقة العمل؟",
+          "relevant_chunk_ids": [
+            "labor_law__article_084__chunk_001"
+          ],
+          "retrieved_chunk_ids": [
+            "labor_law__article_084__chunk_001",
+            "labor_law__article_085__chunk_001",
+            "labor_law__article_088__chunk_001",
+            "labor_law__article_077__chunk_001",
+            "labor_law__article_087__chunk_001",
+            "labor_law__article_111__chunk_001",
+            "labor_law__article_076__chunk_001",
+            "labor_law__article_086__chunk_001",
+            "labor_law__article_064__chunk_001",
+            "labor_law__article_057__chunk_001"
+          ],
+          "recall_at_10": 1.0,
+          "mrr_at_10": 1.0,
+          "top_1_accuracy": 1.0,
+          "first_relevant_rank": 1,
+          "hit_ids": [
+            "labor_law__article_084__chunk_001"
+          ],
+          "missed_ids": [],
+          "passed": true
+        },
+        {
+          "id": "q003",
+          "query": "ما مقدار مكافأة نهاية الخدمة إذا استقال العامل؟",
+          "relevant_chunk_ids": [
+            "labor_law__article_085__chunk_001"
+          ],
+          "retrieved_chunk_ids": [
+            "labor_law__article_085__chunk_001",
+            "labor_law__article_084__chunk_001",
+            "labor_law__article_088__chunk_001",
+            "labor_law__article_077__chunk_001",
+            "labor_law__article_087__chunk_001",
+            "labor_law__article_111__chunk_001",
+            "labor_law__article_076__chunk_001",
+            "labor_law__article_080__chunk_001",
+            "labor_law__article_019__chunk_001",
+            "labor_law__article_086__chunk_001"
+          ],
+          "recall_at_10": 1.0,
+          "mrr_at_10": 1.0,
+          "top_1_accuracy": 1.0,
+          "first_relevant_rank": 1,
+          "hit_ids": [
+            "labor_law__article_085__chunk_001"
+          ],
+          "missed_ids": [],
+          "passed": true
+        },
+        {
+          "id": "q004",
+          "query": "متى تستحق العاملة مكافأة نهاية الخدمة كاملة؟",
+          "relevant_chunk_ids": [
+            "labor_law__article_087__chunk_001"
+          ],
+          "retrieved_chunk_ids": [
+            "labor_law__article_085__chunk_001",
+            "labor_law__article_084__chunk_001",
+            "labor_law__article_087__chunk_001",
+            "labor_law__article_088__chunk_001",
+            "labor_law__article_111__chunk_001",
+            "labor_law__article_077__chunk_001",
+            "labor_law__article_019__chunk_001",
+            "labor_law__article_064__chunk_001",
+            "labor_law__article_076__chunk_001",
+            "labor_law__article_079__chunk_001"
+          ],
+          "recall_at_10": 1.0,
+          "mrr_at_10": 0.3333,
+          "top_1_accuracy": 0.0,
+          "first_relevant_rank": 3,
+          "hit_ids": [
+            "labor_law__article_087__chunk_001"
+          ],
+          "missed_ids": [],
+          "passed": true
+        },
+        {
+          "id": "q005",
+          "query": "متى يجوز لصاحب العمل فسخ العقد دون مكافأة أو تعويض؟",
+          "relevant_chunk_ids": [
+            "labor_law__article_080__chunk_001"
+          ],
+          "retrieved_chunk_ids": [
+            "labor_law__article_080__chunk_001",
+            "labor_law__article_077__chunk_001",
+            "labor_law__article_081__chunk_001",
+            "labor_law__article_087__chunk_001",
+            "labor_law__article_057__chunk_001",
+            "labor_law__article_085__chunk_001",
+            "labor_law__article_064__chunk_001",
+            "labor_law__article_076__chunk_001",
+            "labor_law__article_084__chunk_001",
+            "labor_law__article_079__chunk_001"
+          ],
+          "recall_at_10": 1.0,
+          "mrr_at_10": 1.0,
+          "top_1_accuracy": 1.0,
+          "first_relevant_rank": 1,
+          "hit_ids": [
+            "labor_law__article_080__chunk_001"
+          ],
+          "missed_ids": [],
+          "passed": true
+        },
+        {
+          "id": "q006",
+          "query": "متى يحق للعامل ترك العمل دون إشعار مع احتفاظه بحقوقه؟",
+          "relevant_chunk_ids": [
+            "labor_law__article_081__chunk_001"
+          ],
+          "retrieved_chunk_ids": [
+            "labor_law__article_081__chunk_001",
+            "labor_law__article_111__chunk_001",
+            "labor_law__article_078__chunk_001",
+            "labor_law__article_116__chunk_001",
+            "labor_law__article_077__chunk_001",
+            "labor_law__article_088__chunk_001",
+            "labor_law__article_062__chunk_001",
+            "labor_law__article_076__chunk_001",
+            "labor_law__article_080__chunk_001",
+            "labor_law__article_085__chunk_001"
+          ],
+          "recall_at_10": 1.0,
+          "mrr_at_10": 1.0,
+          "top_1_accuracy": 1.0,
+          "first_relevant_rank": 1,
+          "hit_ids": [
+            "labor_law__article_081__chunk_001"
+          ],
+          "missed_ids": [],
+          "passed": true
+        },
+        {
+          "id": "q007",
+          "query": "ما المقصود بعقد العمل؟",
+          "relevant_chunk_ids": [
+            "labor_law__article_050__chunk_001"
+          ],
+          "retrieved_chunk_ids": [
+            "labor_law__article_050__chunk_001",
+            "labor_law__article_171__chunk_001",
+            "labor_law__article_045__chunk_001",
+            "labor_law__article_057__chunk_001",
+            "labor_law__article_170__chunk_001",
+            "labor_law__article_046__chunk_001",
+            "labor_law__article_005__chunk_001",
+            "labor_law__article_070__chunk_001",
+            "labor_law__article_037__chunk_001",
+            "labor_law__article_072__chunk_001"
+          ],
+          "recall_at_10": 1.0,
+          "mrr_at_10": 1.0,
+          "top_1_accuracy": 1.0,
+          "first_relevant_rank": 1,
+          "hit_ids": [
+            "labor_law__article_050__chunk_001"
+          ],
+          "missed_ids": [],
+          "passed": true
+        },
+        {
+          "id": "q008",
+          "query": "متى ينتهي العقد إذا كان لإنجاز عمل معين؟",
+          "relevant_chunk_ids": [
+            "labor_law__article_057__chunk_001"
+          ],
+          "retrieved_chunk_ids": [
+            "labor_law__article_057__chunk_001",
+            "labor_law__article_050__chunk_001",
+            "labor_law__article_076__chunk_001",
+            "labor_law__article_055__chunk_001",
+            "labor_law__article_088__chunk_001",
+            "labor_law__article_077__chunk_001",
+            "labor_law__article_084__chunk_001",
+            "labor_law__article_079__chunk_001",
+            "labor_law__article_085__chunk_001",
+            "labor_law__article_171__chunk_001"
+          ],
+          "recall_at_10": 1.0,
+          "mrr_at_10": 1.0,
+          "top_1_accuracy": 1.0,
+          "first_relevant_rank": 1,
+          "hit_ids": [
+            "labor_law__article_057__chunk_001"
+          ],
+          "missed_ids": [],
+          "passed": true
+        },
+        {
+          "id": "q009",
+          "query": "هل يجوز نقل العامل من أجر شهري إلى أجر يومي أو أسبوعي؟",
+          "relevant_chunk_ids": [
+            "labor_law__article_059__chunk_001"
+          ],
+          "retrieved_chunk_ids": [
+            "labor_law__article_059__chunk_001",
+            "labor_law__article_090__chunk_001",
+            "labor_law__article_058__chunk_001",
+            "labor_law__article_104__chunk_001",
+            "labor_law__article_092__chunk_001",
+            "labor_law__article_100__chunk_001",
+            "labor_law__article_093__chunk_001",
+            "labor_law__article_088__chunk_001",
+            "labor_law__article_076__chunk_001",
+            "labor_law__article_096__chunk_001"
+          ],
+          "recall_at_10": 1.0,
+          "mrr_at_10": 1.0,
+          "top_1_accuracy": 1.0,
+          "first_relevant_rank": 1,
+          "hit_ids": [
+            "labor_law__article_059__chunk_001"
+          ],
+          "missed_ids": [],
+          "passed": true
+        },
+        {
+          "id": "q010",
+          "query": "ما التزامات صاحب العمل عند انتهاء عقد العمل؟",
+          "relevant_chunk_ids": [
+            "labor_law__article_064__chunk_001"
+          ],
+          "retrieved_chunk_ids": [
+            "labor_law__article_064__chunk_001",
+            "labor_law__article_088__chunk_001",
+            "labor_law__article_084__chunk_001",
+            "labor_law__article_077__chunk_001",
+            "labor_law__article_057__chunk_001",
+            "labor_law__article_055__chunk_001",
+            "labor_law__article_183__chunk_001",
+            "labor_law__article_079__chunk_001",
+            "labor_law__article_076__chunk_001",
+            "labor_law__article_083__chunk_001"
+          ],
+          "recall_at_10": 1.0,
+          "mrr_at_10": 1.0,
+          "top_1_accuracy": 1.0,
+          "first_relevant_rank": 1,
+          "hit_ids": [
+            "labor_law__article_064__chunk_001"
+          ],
+          "missed_ids": [],
+          "passed": true
+        },
+        {
+          "id": "q011",
+          "query": "ما الجزاءات التأديبية التي يجوز توقيعها على العامل؟",
+          "relevant_chunk_ids": [
+            "labor_law__article_066__chunk_001"
+          ],
+          "retrieved_chunk_ids": [
+            "labor_law__article_071__chunk_001",
+            "labor_law__article_070__chunk_001",
+            "labor_law__article_066__chunk_001",
+            "labor_law__article_067__chunk_001",
+            "labor_law__article_073__chunk_001",
+            "labor_law__article_069__chunk_001",
+            "labor_law__article_068__chunk_001",
+            "labor_law__article_241__chunk_002",
+            "labor_law__article_080__chunk_001",
+            "labor_law__article_238__chunk_001"
+          ],
+          "recall_at_10": 1.0,
+          "mrr_at_10": 0.3333,
+          "top_1_accuracy": 0.0,
+          "first_relevant_rank": 3,
+          "hit_ids": [
+            "labor_law__article_066__chunk_001"
+          ],
+          "missed_ids": [],
+          "passed": true
+        },
+        {
+          "id": "q012",
+          "query": "هل يجوز تشديد الجزاء عند تكرار المخالفة؟",
+          "relevant_chunk_ids": [
+            "labor_law__article_068__chunk_001"
+          ],
+          "retrieved_chunk_ids": [
+            "labor_law__article_068__chunk_001",
+            "labor_law__article_239__chunk_002",
+            "labor_law__article_229__chunk_001",
+            "labor_law__article_070__chunk_001",
+            "labor_law__article_066__chunk_001",
+            "labor_law__article_071__chunk_001",
+            "social_insurance_law__article_061__chunk_001",
+            "labor_law__article_232__chunk_002",
+            "labor_law__article_229__chunk_002",
+            "labor_law__article_241__chunk_001"
+          ],
+          "recall_at_10": 1.0,
+          "mrr_at_10": 1.0,
+          "top_1_accuracy": 1.0,
+          "first_relevant_rank": 1,
+          "hit_ids": [
+            "labor_law__article_068__chunk_001"
+          ],
+          "missed_ids": [],
+          "passed": true
+        },
+        {
+          "id": "q013",
+          "query": "متى يجب دفع أجر العامل وتصفية حقوقه بعد انتهاء الخدمة؟",
+          "relevant_chunk_ids": [
+            "labor_law__article_088__chunk_001"
+          ],
+          "retrieved_chunk_ids": [
+            "labor_law__article_088__chunk_001",
+            "labor_law__article_084__chunk_001",
+            "labor_law__article_111__chunk_001",
+            "labor_law__article_019__chunk_001",
+            "labor_law__article_064__chunk_001",
+            "labor_law__article_085__chunk_001",
+            "labor_law__article_076__chunk_001",
+            "labor_law__article_090__chunk_001",
+            "labor_law__article_137__chunk_001",
+            "labor_law__article_097__chunk_001"
+          ],
+          "recall_at_10": 1.0,
+          "mrr_at_10": 1.0,
+          "top_1_accuracy": 1.0,
+          "first_relevant_rank": 1,
+          "hit_ids": [
+            "labor_law__article_088__chunk_001"
+          ],
+          "missed_ids": [],
+          "passed": true
+        },
+        {
+          "id": "q014",
+          "query": "ما أحكام دفع الأجر للعامل؟",
+          "relevant_chunk_ids": [
+            "labor_law__article_090__chunk_001"
+          ],
+          "retrieved_chunk_ids": [
+            "labor_law__article_090__chunk_001",
+            "labor_law__article_088__chunk_001",
+            "labor_law__article_092__chunk_001",
+            "labor_law__article_095__chunk_001",
+            "labor_law__article_174__chunk_001",
+            "labor_law__article_084__chunk_001",
+            "labor_law__article_111__chunk_001",
+            "labor_law__article_019__chunk_001",
+            "labor_law__article_094__chunk_001",
+            "labor_law__article_104__chunk_001"
+          ],
+          "recall_at_10": 1.0,
+          "mrr_at_10": 1.0,
+          "top_1_accuracy": 1.0,
+          "first_relevant_rank": 1,
+          "hit_ids": [
+            "labor_law__article_090__chunk_001"
+          ],
+          "missed_ids": [],
+          "passed": true
+        },
+        {
+          "id": "q015",
+          "query": "ما الحد الأعلى للحسم من أجر العامل؟",
+          "relevant_chunk_ids": [
+            "labor_law__article_093__chunk_001"
+          ],
+          "retrieved_chunk_ids": [
+            "labor_law__article_093__chunk_001",
+            "labor_law__article_092__chunk_001",
+            "labor_law__article_095__chunk_001",
+            "labor_law__article_094__chunk_001",
+            "labor_law__article_238__chunk_001",
+            "labor_law__article_089__chunk_001",
+            "labor_law__article_090__chunk_001",
+            "labor_law__article_096__chunk_001",
+            "labor_law__article_019__chunk_001",
+            "labor_law__article_084__chunk_001"
+          ],
+          "recall_at_10": 1.0,
+          "mrr_at_10": 1.0,
+          "top_1_accuracy": 1.0,
+          "first_relevant_rank": 1,
+          "hit_ids": [
+            "labor_law__article_093__chunk_001"
+          ],
+          "missed_ids": [],
+          "passed": true
+        },
+        {
+          "id": "q016",
+          "query": "ما المقصود بإصابة العمل؟",
+          "relevant_chunk_ids": [
+            "social_insurance_law__article_030__chunk_001",
+            "labor_law__article_134__chunk_001"
+          ],
+          "retrieved_chunk_ids": [
+            "labor_law__article_134__chunk_001",
+            "labor_law__article_133__chunk_001",
+            "labor_law__article_029__chunk_001",
+            "labor_law__article_137__chunk_001",
+            "labor_law__article_139__chunk_001",
+            "labor_law__article_138__chunk_001",
+            "social_insurance_law__article_030__chunk_001",
+            "labor_law__article_141__chunk_001",
+            "social_insurance_law__article_034__chunk_001",
+            "labor_law__article_126__chunk_001"
+          ],
+          "recall_at_10": 1.0,
+          "mrr_at_10": 1.0,
+          "top_1_accuracy": 1.0,
+          "first_relevant_rank": 1,
+          "hit_ids": [
+            "social_insurance_law__article_030__chunk_001",
+            "labor_law__article_134__chunk_001"
+          ],
+          "missed_ids": [],
+          "passed": true
+        },
+        {
+          "id": "q017",
+          "query": "ما حق المصاب إذا عجز مؤقتا عن العمل بسبب إصابة عمل؟",
+          "relevant_chunk_ids": [
+            "labor_law__article_137__chunk_001"
+          ],
+          "retrieved_chunk_ids": [
+            "labor_law__article_137__chunk_001",
+            "labor_law__article_138__chunk_001",
+            "social_insurance_law__article_033__chunk_001",
+            "labor_law__article_133__chunk_001",
+            "social_insurance_law__article_031__chunk_001",
+            "social_insurance_law__article_034__chunk_001",
+            "labor_law__article_029__chunk_001",
+            "social_insurance_law__article_035__chunk_001",
+            "social_insurance_law__article_021__chunk_001",
+            "social_insurance_law__article_048__chunk_001"
+          ],
+          "recall_at_10": 1.0,
+          "mrr_at_10": 1.0,
+          "top_1_accuracy": 1.0,
+          "first_relevant_rank": 1,
+          "hit_ids": [
+            "labor_law__article_137__chunk_001"
+          ],
+          "missed_ids": [],
+          "passed": true
+        },
+        {
+          "id": "q018",
+          "query": "ما فروع التأمينات الاجتماعية؟",
+          "relevant_chunk_ids": [
+            "social_insurance_law__article_003__chunk_001"
+          ],
+          "retrieved_chunk_ids": [
+            "social_insurance_law__article_003__chunk_001",
+            "social_insurance_law__article_001__chunk_001",
+            "social_insurance_law__article_015__chunk_001",
+            "social_insurance_law__article_002__chunk_001",
+            "social_insurance_law__article_006__chunk_001",
+            "social_insurance_law__article_008__chunk_001",
+            "social_insurance_law__article_044__chunk_001",
+            "social_insurance_law__article_014__chunk_001",
+            "social_insurance_law__article_050__chunk_001",
+            "social_insurance_law__article_031__chunk_001"
+          ],
+          "recall_at_10": 1.0,
+          "mrr_at_10": 1.0,
+          "top_1_accuracy": 1.0,
+          "first_relevant_rank": 1,
+          "hit_ids": [
+            "social_insurance_law__article_003__chunk_001"
+          ],
+          "missed_ids": [],
+          "passed": true
+        },
+        {
+          "id": "q019",
+          "query": "على أي أساس تحسب اشتراكات التأمينات الاجتماعية؟",
+          "relevant_chunk_ids": [
+            "social_insurance_law__article_008__chunk_001"
+          ],
+          "retrieved_chunk_ids": [
+            "social_insurance_law__article_008__chunk_001",
+            "social_insurance_law__article_002__chunk_001",
+            "social_insurance_law__article_026__chunk_001",
+            "social_insurance_law__article_015__chunk_001",
+            "social_insurance_law__article_063__chunk_001",
+            "social_insurance_law__article_044__chunk_001",
+            "social_insurance_law__article_063__chunk_002",
+            "social_insurance_law__article_053__chunk_001",
+            "social_insurance_law__article_036__chunk_001",
+            "social_insurance_law__article_017__chunk_001"
+          ],
+          "recall_at_10": 1.0,
+          "mrr_at_10": 1.0,
+          "top_1_accuracy": 1.0,
+          "first_relevant_rank": 1,
+          "hit_ids": [
+            "social_insurance_law__article_008__chunk_001"
+          ],
+          "missed_ids": [],
+          "passed": true
+        },
+        {
+          "id": "q020",
+          "query": "من المسؤول عن دفع اشتراكات التأمينات الاجتماعية؟",
+          "relevant_chunk_ids": [
+            "social_insurance_law__article_009__chunk_001"
+          ],
+          "retrieved_chunk_ids": [
+            "social_insurance_law__article_015__chunk_001",
+            "social_insurance_law__article_009__chunk_001",
+            "social_insurance_law__article_029__chunk_001",
+            "social_insurance_law__article_044__chunk_001",
+            "social_insurance_law__article_008__chunk_001",
+            "social_insurance_law__article_002__chunk_001",
+            "social_insurance_law__article_011__chunk_001",
+            "social_insurance_law__article_001__chunk_001",
+            "labor_law__article_143__chunk_001",
+            "social_insurance_law__article_003__chunk_001"
+          ],
+          "recall_at_10": 1.0,
+          "mrr_at_10": 0.5,
+          "top_1_accuracy": 0.0,
+          "first_relevant_rank": 2,
+          "hit_ids": [
+            "social_insurance_law__article_009__chunk_001"
+          ],
+          "missed_ids": [],
+          "passed": true
+        },
+        {
+          "id": "q021",
+          "query": "كم نسبة الاشتراك في فرع المعاشات؟",
+          "relevant_chunk_ids": [
+            "social_insurance_law__article_015__chunk_001"
+          ],
+          "retrieved_chunk_ids": [
+            "social_insurance_law__article_015__chunk_001",
+            "social_insurance_law__article_044__chunk_001",
+            "social_insurance_law__article_017__chunk_001",
+            "social_insurance_law__article_029__chunk_001",
+            "social_insurance_law__article_003__chunk_001",
+            "social_insurance_law__article_008__chunk_001",
+            "social_insurance_law__article_026__chunk_001",
+            "social_insurance_law__article_014__chunk_001",
+            "social_insurance_law__article_063__chunk_002",
+            "social_insurance_law__article_063__chunk_001"
+          ],
+          "recall_at_10": 1.0,
+          "mrr_at_10": 1.0,
+          "top_1_accuracy": 1.0,
+          "first_relevant_rank": 1,
+          "hit_ids": [
+            "social_insurance_law__article_015__chunk_001"
+          ],
+          "missed_ids": [],
+          "passed": true
+        },
+        {
+          "id": "q022",
+          "query": "كم نسبة اشتراكات فرع الأخطار المهنية؟",
+          "relevant_chunk_ids": [
+            "social_insurance_law__article_029__chunk_001"
+          ],
+          "retrieved_chunk_ids": [
+            "social_insurance_law__article_029__chunk_001",
+            "social_insurance_law__article_044__chunk_001",
+            "social_insurance_law__article_015__chunk_001",
+            "labor_law__article_141__chunk_001",
+            "social_insurance_law__article_034__chunk_001",
+            "labor_law__article_123__chunk_001",
+            "labor_law__article_132__chunk_001",
+            "labor_law__article_204__chunk_001",
+            "social_insurance_law__article_003__chunk_001",
+            "social_insurance_law__article_030__chunk_001"
+          ],
+          "recall_at_10": 1.0,
+          "mrr_at_10": 1.0,
+          "top_1_accuracy": 1.0,
+          "first_relevant_rank": 1,
+          "hit_ids": [
+            "social_insurance_law__article_029__chunk_001"
+          ],
+          "missed_ids": [],
+          "passed": true
+        },
+        {
+          "id": "q023",
+          "query": "كم نسبة اشتراكات التأمين ضد التعطل عن العمل؟",
+          "relevant_chunk_ids": [
+            "social_insurance_law__article_044__chunk_001"
+          ],
+          "retrieved_chunk_ids": [
+            "social_insurance_law__article_044__chunk_001",
+            "social_insurance_law__article_048__chunk_001",
+            "social_insurance_law__article_043__chunk_001",
+            "social_insurance_law__article_034__chunk_001",
+            "social_insurance_law__article_015__chunk_001",
+            "social_insurance_law__article_033__chunk_001",
+            "labor_law__article_137__chunk_001",
+            "social_insurance_law__article_045__chunk_001",
+            "social_insurance_law__article_029__chunk_001",
+            "labor_law__article_136__chunk_001"
+          ],
+          "recall_at_10": 1.0,
+          "mrr_at_10": 1.0,
+          "top_1_accuracy": 1.0,
+          "first_relevant_rank": 1,
+          "hit_ids": [
+            "social_insurance_law__article_044__chunk_001"
+          ],
+          "missed_ids": [],
+          "passed": true
+        },
+        {
+          "id": "q024",
+          "query": "ما حكم المادة 80 من نظام العمل؟",
+          "relevant_chunk_ids": [
+            "labor_law__article_080__chunk_001"
+          ],
+          "retrieved_chunk_ids": [
+            "labor_law__article_080__chunk_001",
+            "labor_law__article_084__chunk_001",
+            "labor_law__article_087__chunk_001",
+            "labor_law__article_088__chunk_001",
+            "labor_law__article_068__chunk_001",
+            "labor_law__article_093__chunk_001",
+            "labor_law__article_098__chunk_001",
+            "labor_law__article_188__chunk_001",
+            "labor_law__article_078__chunk_001",
+            "labor_law__article_081__chunk_001"
+          ],
+          "recall_at_10": 1.0,
+          "mrr_at_10": 1.0,
+          "top_1_accuracy": 1.0,
+          "first_relevant_rank": 1,
+          "hit_ids": [
+            "labor_law__article_080__chunk_001"
+          ],
+          "missed_ids": [],
+          "passed": true
+        },
+        {
+          "id": "q025",
+          "query": "ما حكم المادة 15 من نظام التأمينات الاجتماعية؟",
+          "relevant_chunk_ids": [
+            "social_insurance_law__article_015__chunk_001"
+          ],
+          "retrieved_chunk_ids": [
+            "social_insurance_law__article_015__chunk_001",
+            "social_insurance_law__article_025__chunk_001",
+            "labor_law__article_132__chunk_001",
+            "social_insurance_law__article_050__chunk_001",
+            "social_insurance_law__article_021__chunk_001",
+            "labor_law__article_137__chunk_001",
+            "labor_law__article_153__chunk_001",
+            "social_insurance_law__article_014__chunk_001",
+            "social_insurance_law__article_051__chunk_001",
+            "social_insurance_law__article_034__chunk_001"
+          ],
+          "recall_at_10": 1.0,
+          "mrr_at_10": 1.0,
+          "top_1_accuracy": 1.0,
+          "first_relevant_rank": 1,
+          "hit_ids": [
+            "social_insurance_law__article_015__chunk_001"
+          ],
+          "missed_ids": [],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "method": "keyword_bm25",
+      "k": 10,
+      "queries_evaluated": 25,
+      "mean_recall_at_10": 0.79,
+      "mean_mrr_at_10": 0.5847,
+      "top_1_accuracy": 0.48,
+      "mean_first_relevant_rank": 2.0,
+      "perfect_queries": 19,
+      "zero_recall_queries": 5,
+      "per_query_results": [
+        {
+          "id": "q001",
+          "query": "متى يستحق العامل مكافأة نهاية الخدمة؟",
+          "relevant_chunk_ids": [
+            "labor_law__article_084__chunk_001",
+            "labor_law__article_085__chunk_001",
+            "labor_law__article_086__chunk_001",
+            "labor_law__article_087__chunk_001"
+          ],
+          "retrieved_chunk_ids": [
+            "labor_law__article_054__chunk_001",
+            "labor_law__article_086__chunk_001",
+            "labor_law__article_110__chunk_001",
+            "labor_law__article_066__chunk_001",
+            "labor_law__article_018__chunk_001",
+            "labor_law__article_084__chunk_001",
+            "labor_law__article_172__chunk_001",
+            "labor_law__article_035__chunk_001",
+            "labor_law__article_085__chunk_001",
+            "labor_law__article_109__chunk_001"
+          ],
+          "recall_at_10": 0.75,
+          "mrr_at_10": 0.5,
+          "top_1_accuracy": 0.0,
+          "first_relevant_rank": 2,
+          "hit_ids": [
+            "labor_law__article_084__chunk_001",
+            "labor_law__article_085__chunk_001",
+            "labor_law__article_086__chunk_001"
+          ],
+          "missed_ids": [
+            "labor_law__article_087__chunk_001"
+          ],
+          "passed": true
+        },
+        {
+          "id": "q002",
+          "query": "كيف تحسب مكافأة نهاية الخدمة عند انتهاء علاقة العمل؟",
+          "relevant_chunk_ids": [
+            "labor_law__article_084__chunk_001"
+          ],
+          "retrieved_chunk_ids": [
+            "labor_law__article_086__chunk_001",
+            "labor_law__article_054__chunk_001",
+            "labor_law__article_084__chunk_001",
+            "labor_law__article_018__chunk_001",
+            "labor_law__article_172__chunk_001",
+            "labor_law__article_085__chunk_001",
+            "labor_law__article_234__chunk_001",
+            "labor_law__article_064__chunk_001",
+            "labor_law__article_152__chunk_001",
+            "labor_law__article_110__chunk_001"
+          ],
+          "recall_at_10": 1.0,
+          "mrr_at_10": 0.3333,
+          "top_1_accuracy": 0.0,
+          "first_relevant_rank": 3,
+          "hit_ids": [
+            "labor_law__article_084__chunk_001"
+          ],
+          "missed_ids": [],
+          "passed": true
+        },
+        {
+          "id": "q003",
+          "query": "ما مقدار مكافأة نهاية الخدمة إذا استقال العامل؟",
+          "relevant_chunk_ids": [
+            "labor_law__article_085__chunk_001"
+          ],
+          "retrieved_chunk_ids": [
+            "labor_law__article_086__chunk_001",
+            "labor_law__article_018__chunk_001",
+            "labor_law__article_172__chunk_001",
+            "labor_law__article_054__chunk_001",
+            "labor_law__article_084__chunk_001",
+            "labor_law__article_110__chunk_001",
+            "labor_law__article_184__chunk_001",
+            "labor_law__article_056__chunk_001",
+            "labor_law__article_173__chunk_001",
+            "labor_law__article_095__chunk_001"
+          ],
+          "recall_at_10": 0.0,
+          "mrr_at_10": 0.0,
+          "top_1_accuracy": 0.0,
+          "first_relevant_rank": null,
+          "hit_ids": [],
+          "missed_ids": [
+            "labor_law__article_085__chunk_001"
+          ],
+          "passed": false
+        },
+        {
+          "id": "q004",
+          "query": "متى تستحق العاملة مكافأة نهاية الخدمة كاملة؟",
+          "relevant_chunk_ids": [
+            "labor_law__article_087__chunk_001"
+          ],
+          "retrieved_chunk_ids": [
+            "labor_law__article_086__chunk_001",
+            "labor_law__article_054__chunk_001",
+            "labor_law__article_018__chunk_001",
+            "labor_law__article_172__chunk_001",
+            "labor_law__article_087__chunk_001",
+            "labor_law__article_066__chunk_001",
+            "labor_law__article_110__chunk_001",
+            "labor_law__article_153__chunk_001",
+            "labor_law__article_084__chunk_001",
+            "social_insurance_law__article_055__chunk_001"
+          ],
+          "recall_at_10": 1.0,
+          "mrr_at_10": 0.2,
+          "top_1_accuracy": 0.0,
+          "first_relevant_rank": 5,
+          "hit_ids": [
+            "labor_law__article_087__chunk_001"
+          ],
+          "missed_ids": [],
+          "passed": true
+        },
+        {
+          "id": "q005",
+          "query": "متى يجوز لصاحب العمل فسخ العقد دون مكافأة أو تعويض؟",
+          "relevant_chunk_ids": [
+            "labor_law__article_080__chunk_001"
+          ],
+          "retrieved_chunk_ids": [
+            "labor_law__article_080__chunk_001",
+            "labor_law__article_066__chunk_001",
+            "labor_law__article_182__chunk_001",
+            "labor_law__article_054__chunk_001",
+            "social_insurance_law__article_011__chunk_001",
+            "labor_law__article_081__chunk_001",
+            "labor_law__article_035__chunk_001",
+            "labor_law__article_048__chunk_001",
+            "labor_law__article_064__chunk_001",
+            "labor_law__article_065__chunk_001"
+          ],
+          "recall_at_10": 1.0,
+          "mrr_at_10": 1.0,
+          "top_1_accuracy": 1.0,
+          "first_relevant_rank": 1,
+          "hit_ids": [
+            "labor_law__article_080__chunk_001"
+          ],
+          "missed_ids": [],
+          "passed": true
+        },
+        {
+          "id": "q006",
+          "query": "متى يحق للعامل ترك العمل دون إشعار مع احتفاظه بحقوقه؟",
+          "relevant_chunk_ids": [
+            "labor_law__article_081__chunk_001"
+          ],
+          "retrieved_chunk_ids": [
+            "labor_law__article_081__chunk_001",
+            "labor_law__article_066__chunk_001",
+            "labor_law__article_111__chunk_001",
+            "labor_law__article_198__chunk_001",
+            "labor_law__article_035__chunk_001",
+            "labor_law__article_116__chunk_001",
+            "labor_law__article_115__chunk_001",
+            "labor_law__article_094__chunk_001",
+            "labor_law__article_078__chunk_001",
+            "labor_law__article_087__chunk_001"
+          ],
+          "recall_at_10": 1.0,
+          "mrr_at_10": 1.0,
+          "top_1_accuracy": 1.0,
+          "first_relevant_rank": 1,
+          "hit_ids": [
+            "labor_law__article_081__chunk_001"
+          ],
+          "missed_ids": [],
+          "passed": true
+        },
+        {
+          "id": "q007",
+          "query": "ما المقصود بعقد العمل؟",
+          "relevant_chunk_ids": [
+            "labor_law__article_050__chunk_001"
+          ],
+          "retrieved_chunk_ids": [
+            "labor_law__article_175__chunk_001",
+            "labor_law__article_178__chunk_001",
+            "labor_law__article_097__chunk_001",
+            "labor_law__article_092__chunk_001",
+            "labor_law__article_094__chunk_001",
+            "labor_law__article_096__chunk_001",
+            "labor_law__article_091__chunk_001",
+            "labor_law__article_064__chunk_001",
+            "labor_law__article_010__chunk_001",
+            "labor_law__article_135__chunk_001"
+          ],
+          "recall_at_10": 0.0,
+          "mrr_at_10": 0.0,
+          "top_1_accuracy": 0.0,
+          "first_relevant_rank": null,
+          "hit_ids": [],
+          "missed_ids": [
+            "labor_law__article_050__chunk_001"
+          ],
+          "passed": false
+        },
+        {
+          "id": "q008",
+          "query": "متى ينتهي العقد إذا كان لإنجاز عمل معين؟",
+          "relevant_chunk_ids": [
+            "labor_law__article_057__chunk_001"
+          ],
+          "retrieved_chunk_ids": [
+            "labor_law__article_057__chunk_001",
+            "labor_law__article_170__chunk_001",
+            "labor_law__article_171__chunk_001",
+            "labor_law__article_055__chunk_001",
+            "labor_law__article_077__chunk_001",
+            "labor_law__article_075__chunk_001",
+            "labor_law__article_066__chunk_001",
+            "labor_law__article_079__chunk_001",
+            "labor_law__article_081__chunk_001",
+            "labor_law__article_083__chunk_001"
+          ],
+          "recall_at_10": 1.0,
+          "mrr_at_10": 1.0,
+          "top_1_accuracy": 1.0,
+          "first_relevant_rank": 1,
+          "hit_ids": [
+            "labor_law__article_057__chunk_001"
+          ],
+          "missed_ids": [],
+          "passed": true
+        },
+        {
+          "id": "q009",
+          "query": "هل يجوز نقل العامل من أجر شهري إلى أجر يومي أو أسبوعي؟",
+          "relevant_chunk_ids": [
+            "labor_law__article_059__chunk_001"
+          ],
+          "retrieved_chunk_ids": [
+            "social_insurance_law__article_033__chunk_001",
+            "labor_law__article_094__chunk_001",
+            "labor_law__article_070__chunk_001",
+            "labor_law__article_093__chunk_001",
+            "labor_law__article_091__chunk_001",
+            "labor_law__article_059__chunk_001",
+            "labor_law__article_115__chunk_001",
+            "labor_law__article_077__chunk_001",
+            "labor_law__article_096__chunk_001",
+            "labor_law__article_062__chunk_001"
+          ],
+          "recall_at_10": 1.0,
+          "mrr_at_10": 0.1667,
+          "top_1_accuracy": 0.0,
+          "first_relevant_rank": 6,
+          "hit_ids": [
+            "labor_law__article_059__chunk_001"
+          ],
+          "missed_ids": [],
+          "passed": true
+        },
+        {
+          "id": "q010",
+          "query": "ما التزامات صاحب العمل عند انتهاء عقد العمل؟",
+          "relevant_chunk_ids": [
+            "labor_law__article_064__chunk_001"
+          ],
+          "retrieved_chunk_ids": [
+            "labor_law__article_064__chunk_001",
+            "labor_law__article_172__chunk_001",
+            "labor_law__article_079__chunk_001",
+            "labor_law__article_234__chunk_001",
+            "labor_law__article_037__chunk_001",
+            "labor_law__article_050__chunk_001",
+            "labor_law__article_116__chunk_001",
+            "labor_law__article_045__chunk_001",
+            "labor_law__article_010__chunk_001",
+            "labor_law__article_004__chunk_001"
+          ],
+          "recall_at_10": 1.0,
+          "mrr_at_10": 1.0,
+          "top_1_accuracy": 1.0,
+          "first_relevant_rank": 1,
+          "hit_ids": [
+            "labor_law__article_064__chunk_001"
+          ],
+          "missed_ids": [],
+          "passed": true
+        },
+        {
+          "id": "q011",
+          "query": "ما الجزاءات التأديبية التي يجوز توقيعها على العامل؟",
+          "relevant_chunk_ids": [
+            "labor_law__article_066__chunk_001"
+          ],
+          "retrieved_chunk_ids": [
+            "labor_law__article_066__chunk_001",
+            "labor_law__article_073__chunk_001",
+            "labor_law__article_092__chunk_001",
+            "labor_law__article_070__chunk_001",
+            "labor_law__article_012__chunk_001",
+            "labor_law__article_013__chunk_001",
+            "labor_law__article_014__chunk_001",
+            "labor_law__article_071__chunk_001",
+            "labor_law__article_116__chunk_001",
+            "social_insurance_law__article_058__chunk_001"
+          ],
+          "recall_at_10": 1.0,
+          "mrr_at_10": 1.0,
+          "top_1_accuracy": 1.0,
+          "first_relevant_rank": 1,
+          "hit_ids": [
+            "labor_law__article_066__chunk_001"
+          ],
+          "missed_ids": [],
+          "passed": true
+        },
+        {
+          "id": "q012",
+          "query": "هل يجوز تشديد الجزاء عند تكرار المخالفة؟",
+          "relevant_chunk_ids": [
+            "labor_law__article_068__chunk_001"
+          ],
+          "retrieved_chunk_ids": [
+            "labor_law__article_068__chunk_001",
+            "labor_law__article_071__chunk_001",
+            "labor_law__article_072__chunk_001",
+            "labor_law__article_100__chunk_001",
+            "labor_law__article_089__chunk_001",
+            "labor_law__article_003__chunk_001",
+            "labor_law__article_004__chunk_001",
+            "labor_law__article_122__chunk_001",
+            "labor_law__article_064__chunk_001",
+            "labor_law__article_204__chunk_001"
+          ],
+          "recall_at_10": 1.0,
+          "mrr_at_10": 1.0,
+          "top_1_accuracy": 1.0,
+          "first_relevant_rank": 1,
+          "hit_ids": [
+            "labor_law__article_068__chunk_001"
+          ],
+          "missed_ids": [],
+          "passed": true
+        },
+        {
+          "id": "q013",
+          "query": "متى يجب دفع أجر العامل وتصفية حقوقه بعد انتهاء الخدمة؟",
+          "relevant_chunk_ids": [
+            "labor_law__article_088__chunk_001"
+          ],
+          "retrieved_chunk_ids": [
+            "labor_law__article_088__chunk_001",
+            "labor_law__article_090__chunk_001",
+            "labor_law__article_037__chunk_001",
+            "labor_law__article_066__chunk_001",
+            "labor_law__article_172__chunk_001",
+            "labor_law__article_069__chunk_001",
+            "labor_law__article_152__chunk_001",
+            "labor_law__article_077__chunk_001",
+            "labor_law__article_083__chunk_001",
+            "labor_law__article_107__chunk_001"
+          ],
+          "recall_at_10": 1.0,
+          "mrr_at_10": 1.0,
+          "top_1_accuracy": 1.0,
+          "first_relevant_rank": 1,
+          "hit_ids": [
+            "labor_law__article_088__chunk_001"
+          ],
+          "missed_ids": [],
+          "passed": true
+        },
+        {
+          "id": "q014",
+          "query": "ما أحكام دفع الأجر للعامل؟",
+          "relevant_chunk_ids": [
+            "labor_law__article_090__chunk_001"
+          ],
+          "retrieved_chunk_ids": [
+            "labor_law__article_172__chunk_001",
+            "labor_law__article_097__chunk_001",
+            "labor_law__article_090__chunk_001",
+            "labor_law__article_096__chunk_001",
+            "labor_law__article_094__chunk_001",
+            "social_insurance_law__article_033__chunk_001",
+            "labor_law__article_088__chunk_001",
+            "labor_law__article_008__chunk_001",
+            "labor_law__article_118__chunk_001",
+            "labor_law__article_084__chunk_001"
+          ],
+          "recall_at_10": 1.0,
+          "mrr_at_10": 0.3333,
+          "top_1_accuracy": 0.0,
+          "first_relevant_rank": 3,
+          "hit_ids": [
+            "labor_law__article_090__chunk_001"
+          ],
+          "missed_ids": [],
+          "passed": true
+        },
+        {
+          "id": "q015",
+          "query": "ما الحد الأعلى للحسم من أجر العامل؟",
+          "relevant_chunk_ids": [
+            "labor_law__article_093__chunk_001"
+          ],
+          "retrieved_chunk_ids": [
+            "social_insurance_law__article_008__chunk_001",
+            "labor_law__article_229__chunk_001",
+            "labor_law__article_231__chunk_001",
+            "labor_law__article_232__chunk_001",
+            "labor_law__article_239__chunk_001",
+            "labor_law__article_241__chunk_001",
+            "social_insurance_law__article_048__chunk_001",
+            "labor_law__article_229__chunk_002",
+            "labor_law__article_231__chunk_002",
+            "labor_law__article_232__chunk_002"
+          ],
+          "recall_at_10": 0.0,
+          "mrr_at_10": 0.0,
+          "top_1_accuracy": 0.0,
+          "first_relevant_rank": null,
+          "hit_ids": [],
+          "missed_ids": [
+            "labor_law__article_093__chunk_001"
+          ],
+          "passed": false
+        },
+        {
+          "id": "q016",
+          "query": "ما المقصود بإصابة العمل؟",
+          "relevant_chunk_ids": [
+            "social_insurance_law__article_030__chunk_001",
+            "labor_law__article_134__chunk_001"
+          ],
+          "retrieved_chunk_ids": [
+            "labor_law__article_133__chunk_001",
+            "social_insurance_law__article_031__chunk_001",
+            "labor_law__article_097__chunk_001",
+            "labor_law__article_092__chunk_001",
+            "labor_law__article_094__chunk_001",
+            "labor_law__article_096__chunk_001",
+            "labor_law__article_091__chunk_001",
+            "labor_law__article_064__chunk_001",
+            "labor_law__article_010__chunk_001",
+            "labor_law__article_135__chunk_001"
+          ],
+          "recall_at_10": 0.0,
+          "mrr_at_10": 0.0,
+          "top_1_accuracy": 0.0,
+          "first_relevant_rank": null,
+          "hit_ids": [],
+          "missed_ids": [
+            "social_insurance_law__article_030__chunk_001",
+            "labor_law__article_134__chunk_001"
+          ],
+          "passed": false
+        },
+        {
+          "id": "q017",
+          "query": "ما حق المصاب إذا عجز مؤقتا عن العمل بسبب إصابة عمل؟",
+          "relevant_chunk_ids": [
+            "labor_law__article_137__chunk_001"
+          ],
+          "retrieved_chunk_ids": [
+            "labor_law__article_138__chunk_001",
+            "labor_law__article_137__chunk_001",
+            "social_insurance_law__article_037__chunk_001",
+            "labor_law__article_029__chunk_001",
+            "social_insurance_law__article_038__chunk_001",
+            "social_insurance_law__article_040__chunk_001",
+            "social_insurance_law__article_031__chunk_001",
+            "labor_law__article_139__chunk_001",
+            "social_insurance_law__article_035__chunk_001",
+            "labor_law__article_157__chunk_001"
+          ],
+          "recall_at_10": 1.0,
+          "mrr_at_10": 0.5,
+          "top_1_accuracy": 0.0,
+          "first_relevant_rank": 2,
+          "hit_ids": [
+            "labor_law__article_137__chunk_001"
+          ],
+          "missed_ids": [],
+          "passed": true
+        },
+        {
+          "id": "q018",
+          "query": "ما فروع التأمينات الاجتماعية؟",
+          "relevant_chunk_ids": [
+            "social_insurance_law__article_003__chunk_001"
+          ],
+          "retrieved_chunk_ids": [
+            "social_insurance_law__article_007__chunk_001",
+            "social_insurance_law__article_012__chunk_001",
+            "social_insurance_law__article_003__chunk_001",
+            "social_insurance_law__article_013__chunk_001",
+            "social_insurance_law__article_001__chunk_001",
+            "social_insurance_law__article_006__chunk_001",
+            "social_insurance_law__article_018__chunk_001",
+            "social_insurance_law__article_008__chunk_001",
+            "labor_law__article_134__chunk_001",
+            "social_insurance_law__article_054__chunk_001"
+          ],
+          "recall_at_10": 1.0,
+          "mrr_at_10": 0.3333,
+          "top_1_accuracy": 0.0,
+          "first_relevant_rank": 3,
+          "hit_ids": [
+            "social_insurance_law__article_003__chunk_001"
+          ],
+          "missed_ids": [],
+          "passed": true
+        },
+        {
+          "id": "q019",
+          "query": "على أي أساس تحسب اشتراكات التأمينات الاجتماعية؟",
+          "relevant_chunk_ids": [
+            "social_insurance_law__article_008__chunk_001"
+          ],
+          "retrieved_chunk_ids": [
+            "social_insurance_law__article_008__chunk_001",
+            "labor_law__article_092__chunk_001",
+            "social_insurance_law__article_038__chunk_001",
+            "labor_law__article_084__chunk_001",
+            "social_insurance_law__article_044__chunk_001",
+            "labor_law__article_096__chunk_001",
+            "labor_law__article_010__chunk_001",
+            "social_insurance_law__article_029__chunk_001",
+            "labor_law__article_003__chunk_001",
+            "labor_law__article_086__chunk_001"
+          ],
+          "recall_at_10": 1.0,
+          "mrr_at_10": 1.0,
+          "top_1_accuracy": 1.0,
+          "first_relevant_rank": 1,
+          "hit_ids": [
+            "social_insurance_law__article_008__chunk_001"
+          ],
+          "missed_ids": [],
+          "passed": true
+        },
+        {
+          "id": "q020",
+          "query": "من المسؤول عن دفع اشتراكات التأمينات الاجتماعية؟",
+          "relevant_chunk_ids": [
+            "social_insurance_law__article_009__chunk_001"
+          ],
+          "retrieved_chunk_ids": [
+            "labor_law__article_081__chunk_001",
+            "social_insurance_law__article_044__chunk_001",
+            "labor_law__article_092__chunk_001",
+            "social_insurance_law__article_009__chunk_001",
+            "social_insurance_law__article_029__chunk_001",
+            "labor_law__article_172__chunk_001",
+            "social_insurance_law__article_033__chunk_001",
+            "labor_law__article_191__chunk_001",
+            "labor_law__article_088__chunk_001",
+            "labor_law__article_097__chunk_001"
+          ],
+          "recall_at_10": 1.0,
+          "mrr_at_10": 0.25,
+          "top_1_accuracy": 0.0,
+          "first_relevant_rank": 4,
+          "hit_ids": [
+            "social_insurance_law__article_009__chunk_001"
+          ],
+          "missed_ids": [],
+          "passed": true
+        },
+        {
+          "id": "q021",
+          "query": "كم نسبة الاشتراك في فرع المعاشات؟",
+          "relevant_chunk_ids": [
+            "social_insurance_law__article_015__chunk_001"
+          ],
+          "retrieved_chunk_ids": [
+            "social_insurance_law__article_015__chunk_001",
+            "social_insurance_law__article_029__chunk_001",
+            "social_insurance_law__article_057__chunk_001",
+            "social_insurance_law__article_044__chunk_001",
+            "labor_law__article_093__chunk_001",
+            "social_insurance_law__article_009__chunk_001",
+            "labor_law__article_026__chunk_001",
+            "social_insurance_law__article_007__chunk_001",
+            "social_insurance_law__article_048__chunk_001",
+            "social_insurance_law__article_003__chunk_001"
+          ],
+          "recall_at_10": 1.0,
+          "mrr_at_10": 1.0,
+          "top_1_accuracy": 1.0,
+          "first_relevant_rank": 1,
+          "hit_ids": [
+            "social_insurance_law__article_015__chunk_001"
+          ],
+          "missed_ids": [],
+          "passed": true
+        },
+        {
+          "id": "q022",
+          "query": "كم نسبة اشتراكات فرع الأخطار المهنية؟",
+          "relevant_chunk_ids": [
+            "social_insurance_law__article_029__chunk_001"
+          ],
+          "retrieved_chunk_ids": [
+            "social_insurance_law__article_029__chunk_001",
+            "social_insurance_law__article_003__chunk_001",
+            "social_insurance_law__article_028__chunk_001",
+            "social_insurance_law__article_056__chunk_001",
+            "social_insurance_law__article_027__chunk_001",
+            "social_insurance_law__article_044__chunk_001",
+            "social_insurance_law__article_005__chunk_001",
+            "labor_law__article_092__chunk_001",
+            "social_insurance_law__article_057__chunk_001",
+            "labor_law__article_132__chunk_001"
+          ],
+          "recall_at_10": 1.0,
+          "mrr_at_10": 1.0,
+          "top_1_accuracy": 1.0,
+          "first_relevant_rank": 1,
+          "hit_ids": [
+            "social_insurance_law__article_029__chunk_001"
+          ],
+          "missed_ids": [],
+          "passed": true
+        },
+        {
+          "id": "q023",
+          "query": "كم نسبة اشتراكات التأمين ضد التعطل عن العمل؟",
+          "relevant_chunk_ids": [
+            "social_insurance_law__article_044__chunk_001"
+          ],
+          "retrieved_chunk_ids": [
+            "social_insurance_law__article_044__chunk_001",
+            "social_insurance_law__article_003__chunk_001",
+            "social_insurance_law__article_043__chunk_001",
+            "social_insurance_law__article_048__chunk_001",
+            "social_insurance_law__article_042__chunk_001",
+            "social_insurance_law__article_045__chunk_001",
+            "social_insurance_law__article_056__chunk_001",
+            "social_insurance_law__article_029__chunk_001",
+            "labor_law__article_092__chunk_001",
+            "social_insurance_law__article_057__chunk_001"
+          ],
+          "recall_at_10": 1.0,
+          "mrr_at_10": 1.0,
+          "top_1_accuracy": 1.0,
+          "first_relevant_rank": 1,
+          "hit_ids": [
+            "social_insurance_law__article_044__chunk_001"
+          ],
+          "missed_ids": [],
+          "passed": true
+        },
+        {
+          "id": "q024",
+          "query": "ما حكم المادة 80 من نظام العمل؟",
+          "relevant_chunk_ids": [
+            "labor_law__article_080__chunk_001"
+          ],
+          "retrieved_chunk_ids": [
+            "labor_law__article_134__chunk_001",
+            "labor_law__article_074__chunk_001",
+            "social_insurance_law__article_027__chunk_001",
+            "labor_law__article_135__chunk_001",
+            "labor_law__article_237__chunk_001",
+            "labor_law__article_086__chunk_001",
+            "social_insurance_law__article_039__chunk_001",
+            "social_insurance_law__article_059__chunk_001",
+            "social_insurance_law__article_042__chunk_001",
+            "labor_law__article_092__chunk_001"
+          ],
+          "recall_at_10": 0.0,
+          "mrr_at_10": 0.0,
+          "top_1_accuracy": 0.0,
+          "first_relevant_rank": null,
+          "hit_ids": [],
+          "missed_ids": [
+            "labor_law__article_080__chunk_001"
+          ],
+          "passed": false
+        },
+        {
+          "id": "q025",
+          "query": "ما حكم المادة 15 من نظام التأمينات الاجتماعية؟",
+          "relevant_chunk_ids": [
+            "social_insurance_law__article_015__chunk_001"
+          ],
+          "retrieved_chunk_ids": [
+            "social_insurance_law__article_015__chunk_001",
+            "labor_law__article_134__chunk_001",
+            "social_insurance_law__article_027__chunk_001",
+            "labor_law__article_162__chunk_001",
+            "social_insurance_law__article_039__chunk_001",
+            "social_insurance_law__article_042__chunk_001",
+            "labor_law__article_074__chunk_001",
+            "labor_law__article_135__chunk_001",
+            "labor_law__article_237__chunk_001",
+            "social_insurance_law__article_012__chunk_001"
+          ],
+          "recall_at_10": 1.0,
+          "mrr_at_10": 1.0,
+          "top_1_accuracy": 1.0,
+          "first_relevant_rank": 1,
+          "hit_ids": [
+            "social_insurance_law__article_015__chunk_001"
+          ],
+          "missed_ids": [],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "method": "hybrid_weighted_rrf",
+      "k": 10,
+      "queries_evaluated": 25,
+      "mean_recall_at_10": 0.99,
+      "mean_mrr_at_10": 0.9267,
+      "top_1_accuracy": 0.88,
+      "mean_first_relevant_rank": 1.28,
+      "perfect_queries": 24,
+      "zero_recall_queries": 0,
+      "per_query_results": [
+        {
+          "id": "q001",
+          "query": "متى يستحق العامل مكافأة نهاية الخدمة؟",
+          "relevant_chunk_ids": [
+            "labor_law__article_084__chunk_001",
+            "labor_law__article_085__chunk_001",
+            "labor_law__article_086__chunk_001",
+            "labor_law__article_087__chunk_001"
+          ],
+          "retrieved_chunk_ids": [
+            "labor_law__article_084__chunk_001",
+            "labor_law__article_085__chunk_001",
+            "labor_law__article_077__chunk_001",
+            "labor_law__article_086__chunk_001",
+            "labor_law__article_111__chunk_001",
+            "labor_law__article_080__chunk_001",
+            "labor_law__article_177__chunk_001",
+            "labor_law__article_109__chunk_001",
+            "labor_law__article_242__chunk_001",
+            "labor_law__article_088__chunk_001"
+          ],
+          "recall_at_10": 0.75,
+          "mrr_at_10": 1.0,
+          "top_1_accuracy": 1.0,
+          "first_relevant_rank": 1,
+          "hit_ids": [
+            "labor_law__article_084__chunk_001",
+            "labor_law__article_085__chunk_001",
+            "labor_law__article_086__chunk_001"
+          ],
+          "missed_ids": [
+            "labor_law__article_087__chunk_001"
+          ],
+          "passed": true
+        },
+        {
+          "id": "q002",
+          "query": "كيف تحسب مكافأة نهاية الخدمة عند انتهاء علاقة العمل؟",
+          "relevant_chunk_ids": [
+            "labor_law__article_084__chunk_001"
+          ],
+          "retrieved_chunk_ids": [
+            "labor_law__article_084__chunk_001",
+            "labor_law__article_085__chunk_001",
+            "labor_law__article_086__chunk_001",
+            "labor_law__article_064__chunk_001",
+            "labor_law__article_056__chunk_001",
+            "labor_law__article_088__chunk_001",
+            "labor_law__article_077__chunk_001",
+            "labor_law__article_087__chunk_001",
+            "labor_law__article_111__chunk_001",
+            "labor_law__article_076__chunk_001"
+          ],
+          "recall_at_10": 1.0,
+          "mrr_at_10": 1.0,
+          "top_1_accuracy": 1.0,
+          "first_relevant_rank": 1,
+          "hit_ids": [
+            "labor_law__article_084__chunk_001"
+          ],
+          "missed_ids": [],
+          "passed": true
+        },
+        {
+          "id": "q003",
+          "query": "ما مقدار مكافأة نهاية الخدمة إذا استقال العامل؟",
+          "relevant_chunk_ids": [
+            "labor_law__article_085__chunk_001"
+          ],
+          "retrieved_chunk_ids": [
+            "labor_law__article_084__chunk_001",
+            "labor_law__article_086__chunk_001",
+            "labor_law__article_080__chunk_001",
+            "labor_law__article_242__chunk_001",
+            "labor_law__article_233__chunk_001",
+            "labor_law__article_085__chunk_001",
+            "labor_law__article_088__chunk_001",
+            "labor_law__article_077__chunk_001",
+            "labor_law__article_087__chunk_001",
+            "labor_law__article_111__chunk_001"
+          ],
+          "recall_at_10": 1.0,
+          "mrr_at_10": 0.1667,
+          "top_1_accuracy": 0.0,
+          "first_relevant_rank": 6,
+          "hit_ids": [
+            "labor_law__article_085__chunk_001"
+          ],
+          "missed_ids": [],
+          "passed": true
+        },
+        {
+          "id": "q004",
+          "query": "متى تستحق العاملة مكافأة نهاية الخدمة كاملة؟",
+          "relevant_chunk_ids": [
+            "labor_law__article_087__chunk_001"
+          ],
+          "retrieved_chunk_ids": [
+            "labor_law__article_087__chunk_001",
+            "labor_law__article_084__chunk_001",
+            "labor_law__article_086__chunk_001",
+            "labor_law__article_056__chunk_001",
+            "labor_law__article_181__chunk_001",
+            "labor_law__article_085__chunk_001",
+            "labor_law__article_088__chunk_001",
+            "labor_law__article_111__chunk_001",
+            "labor_law__article_077__chunk_001",
+            "labor_law__article_019__chunk_001"
+          ],
+          "recall_at_10": 1.0,
+          "mrr_at_10": 1.0,
+          "top_1_accuracy": 1.0,
+          "first_relevant_rank": 1,
+          "hit_ids": [
+            "labor_law__article_087__chunk_001"
+          ],
+          "missed_ids": [],
+          "passed": true
+        },
+        {
+          "id": "q005",
+          "query": "متى يجوز لصاحب العمل فسخ العقد دون مكافأة أو تعويض؟",
+          "relevant_chunk_ids": [
+            "labor_law__article_080__chunk_001"
+          ],
+          "retrieved_chunk_ids": [
+            "labor_law__article_080__chunk_001",
+            "labor_law__article_081__chunk_001",
+            "labor_law__article_064__chunk_001",
+            "labor_law__article_066__chunk_001",
+            "labor_law__article_054__chunk_001",
+            "labor_law__article_182__chunk_001",
+            "labor_law__article_067__chunk_001",
+            "labor_law__article_048__chunk_001",
+            "labor_law__article_077__chunk_001",
+            "labor_law__article_087__chunk_001"
+          ],
+          "recall_at_10": 1.0,
+          "mrr_at_10": 1.0,
+          "top_1_accuracy": 1.0,
+          "first_relevant_rank": 1,
+          "hit_ids": [
+            "labor_law__article_080__chunk_001"
+          ],
+          "missed_ids": [],
+          "passed": true
+        },
+        {
+          "id": "q006",
+          "query": "متى يحق للعامل ترك العمل دون إشعار مع احتفاظه بحقوقه؟",
+          "relevant_chunk_ids": [
+            "labor_law__article_081__chunk_001"
+          ],
+          "retrieved_chunk_ids": [
+            "labor_law__article_081__chunk_001",
+            "labor_law__article_111__chunk_001",
+            "labor_law__article_116__chunk_001",
+            "labor_law__article_078__chunk_001",
+            "labor_law__article_087__chunk_001",
+            "labor_law__article_077__chunk_001",
+            "labor_law__article_088__chunk_001",
+            "labor_law__article_062__chunk_001",
+            "labor_law__article_076__chunk_001",
+            "labor_law__article_080__chunk_001"
+          ],
+          "recall_at_10": 1.0,
+          "mrr_at_10": 1.0,
+          "top_1_accuracy": 1.0,
+          "first_relevant_rank": 1,
+          "hit_ids": [
+            "labor_law__article_081__chunk_001"
+          ],
+          "missed_ids": [],
+          "passed": true
+        },
+        {
+          "id": "q007",
+          "query": "ما المقصود بعقد العمل؟",
+          "relevant_chunk_ids": [
+            "labor_law__article_050__chunk_001"
+          ],
+          "retrieved_chunk_ids": [
+            "labor_law__article_064__chunk_001",
+            "labor_law__article_050__chunk_001",
+            "labor_law__article_171__chunk_001",
+            "labor_law__article_045__chunk_001",
+            "labor_law__article_057__chunk_001",
+            "labor_law__article_170__chunk_001",
+            "labor_law__article_046__chunk_001",
+            "labor_law__article_005__chunk_001",
+            "labor_law__article_070__chunk_001",
+            "labor_law__article_037__chunk_001"
+          ],
+          "recall_at_10": 1.0,
+          "mrr_at_10": 0.5,
+          "top_1_accuracy": 0.0,
+          "first_relevant_rank": 2,
+          "hit_ids": [
+            "labor_law__article_050__chunk_001"
+          ],
+          "missed_ids": [],
+          "passed": true
+        },
+        {
+          "id": "q008",
+          "query": "متى ينتهي العقد إذا كان لإنجاز عمل معين؟",
+          "relevant_chunk_ids": [
+            "labor_law__article_057__chunk_001"
+          ],
+          "retrieved_chunk_ids": [
+            "labor_law__article_057__chunk_001",
+            "labor_law__article_055__chunk_001",
+            "labor_law__article_077__chunk_001",
+            "labor_law__article_088__chunk_001",
+            "labor_law__article_171__chunk_001",
+            "labor_law__article_079__chunk_001",
+            "labor_law__article_075__chunk_001",
+            "labor_law__article_170__chunk_001",
+            "labor_law__article_048__chunk_001",
+            "labor_law__article_053__chunk_001"
+          ],
+          "recall_at_10": 1.0,
+          "mrr_at_10": 1.0,
+          "top_1_accuracy": 1.0,
+          "first_relevant_rank": 1,
+          "hit_ids": [
+            "labor_law__article_057__chunk_001"
+          ],
+          "missed_ids": [],
+          "passed": true
+        },
+        {
+          "id": "q009",
+          "query": "هل يجوز نقل العامل من أجر شهري إلى أجر يومي أو أسبوعي؟",
+          "relevant_chunk_ids": [
+            "labor_law__article_059__chunk_001"
+          ],
+          "retrieved_chunk_ids": [
+            "labor_law__article_059__chunk_001",
+            "labor_law__article_093__chunk_001",
+            "labor_law__article_096__chunk_001",
+            "labor_law__article_070__chunk_001",
+            "labor_law__article_084__chunk_001",
+            "labor_law__article_176__chunk_001",
+            "labor_law__article_090__chunk_001",
+            "labor_law__article_058__chunk_001",
+            "labor_law__article_104__chunk_001",
+            "labor_law__article_092__chunk_001"
+          ],
+          "recall_at_10": 1.0,
+          "mrr_at_10": 1.0,
+          "top_1_accuracy": 1.0,
+          "first_relevant_rank": 1,
+          "hit_ids": [
+            "labor_law__article_059__chunk_001"
+          ],
+          "missed_ids": [],
+          "passed": true
+        },
+        {
+          "id": "q010",
+          "query": "ما التزامات صاحب العمل عند انتهاء عقد العمل؟",
+          "relevant_chunk_ids": [
+            "labor_law__article_064__chunk_001"
+          ],
+          "retrieved_chunk_ids": [
+            "labor_law__article_064__chunk_001",
+            "labor_law__article_088__chunk_001",
+            "labor_law__article_079__chunk_001",
+            "labor_law__article_183__chunk_001",
+            "labor_law__article_083__chunk_001",
+            "labor_law__article_050__chunk_001",
+            "labor_law__article_084__chunk_001",
+            "labor_law__article_077__chunk_001",
+            "labor_law__article_057__chunk_001",
+            "labor_law__article_055__chunk_001"
+          ],
+          "recall_at_10": 1.0,
+          "mrr_at_10": 1.0,
+          "top_1_accuracy": 1.0,
+          "first_relevant_rank": 1,
+          "hit_ids": [
+            "labor_law__article_064__chunk_001"
+          ],
+          "missed_ids": [],
+          "passed": true
+        },
+        {
+          "id": "q011",
+          "query": "ما الجزاءات التأديبية التي يجوز توقيعها على العامل؟",
+          "relevant_chunk_ids": [
+            "labor_law__article_066__chunk_001"
+          ],
+          "retrieved_chunk_ids": [
+            "labor_law__article_066__chunk_001",
+            "labor_law__article_070__chunk_001",
+            "labor_law__article_071__chunk_001",
+            "labor_law__article_073__chunk_001",
+            "labor_law__article_097__chunk_001",
+            "labor_law__article_067__chunk_001",
+            "labor_law__article_069__chunk_001",
+            "labor_law__article_068__chunk_001",
+            "labor_law__article_241__chunk_002",
+            "labor_law__article_080__chunk_001"
+          ],
+          "recall_at_10": 1.0,
+          "mrr_at_10": 1.0,
+          "top_1_accuracy": 1.0,
+          "first_relevant_rank": 1,
+          "hit_ids": [
+            "labor_law__article_066__chunk_001"
+          ],
+          "missed_ids": [],
+          "passed": true
+        },
+        {
+          "id": "q012",
+          "query": "هل يجوز تشديد الجزاء عند تكرار المخالفة؟",
+          "relevant_chunk_ids": [
+            "labor_law__article_068__chunk_001"
+          ],
+          "retrieved_chunk_ids": [
+            "labor_law__article_068__chunk_001",
+            "labor_law__article_071__chunk_001",
+            "social_insurance_law__article_059__chunk_001",
+            "labor_law__article_239__chunk_002",
+            "labor_law__article_229__chunk_001",
+            "labor_law__article_070__chunk_001",
+            "labor_law__article_066__chunk_001",
+            "social_insurance_law__article_061__chunk_001",
+            "labor_law__article_232__chunk_002",
+            "labor_law__article_229__chunk_002"
+          ],
+          "recall_at_10": 1.0,
+          "mrr_at_10": 1.0,
+          "top_1_accuracy": 1.0,
+          "first_relevant_rank": 1,
+          "hit_ids": [
+            "labor_law__article_068__chunk_001"
+          ],
+          "missed_ids": [],
+          "passed": true
+        },
+        {
+          "id": "q013",
+          "query": "متى يجب دفع أجر العامل وتصفية حقوقه بعد انتهاء الخدمة؟",
+          "relevant_chunk_ids": [
+            "labor_law__article_088__chunk_001"
+          ],
+          "retrieved_chunk_ids": [
+            "labor_law__article_088__chunk_001",
+            "labor_law__article_090__chunk_001",
+            "labor_law__article_064__chunk_001",
+            "labor_law__article_085__chunk_001",
+            "labor_law__article_077__chunk_001",
+            "labor_law__article_069__chunk_001",
+            "labor_law__article_094__chunk_001",
+            "labor_law__article_084__chunk_001",
+            "labor_law__article_111__chunk_001",
+            "labor_law__article_019__chunk_001"
+          ],
+          "recall_at_10": 1.0,
+          "mrr_at_10": 1.0,
+          "top_1_accuracy": 1.0,
+          "first_relevant_rank": 1,
+          "hit_ids": [
+            "labor_law__article_088__chunk_001"
+          ],
+          "missed_ids": [],
+          "passed": true
+        },
+        {
+          "id": "q014",
+          "query": "ما أحكام دفع الأجر للعامل؟",
+          "relevant_chunk_ids": [
+            "labor_law__article_090__chunk_001"
+          ],
+          "retrieved_chunk_ids": [
+            "labor_law__article_090__chunk_001",
+            "labor_law__article_088__chunk_001",
+            "labor_law__article_092__chunk_001",
+            "labor_law__article_095__chunk_001",
+            "labor_law__article_084__chunk_001",
+            "labor_law__article_094__chunk_001",
+            "labor_law__article_097__chunk_001",
+            "labor_law__article_096__chunk_001",
+            "labor_law__article_174__chunk_001",
+            "labor_law__article_111__chunk_001"
+          ],
+          "recall_at_10": 1.0,
+          "mrr_at_10": 1.0,
+          "top_1_accuracy": 1.0,
+          "first_relevant_rank": 1,
+          "hit_ids": [
+            "labor_law__article_090__chunk_001"
+          ],
+          "missed_ids": [],
+          "passed": true
+        },
+        {
+          "id": "q015",
+          "query": "ما الحد الأعلى للحسم من أجر العامل؟",
+          "relevant_chunk_ids": [
+            "labor_law__article_093__chunk_001"
+          ],
+          "retrieved_chunk_ids": [
+            "labor_law__article_093__chunk_001",
+            "labor_law__article_094__chunk_001",
+            "labor_law__article_096__chunk_001",
+            "labor_law__article_084__chunk_001",
+            "labor_law__article_091__chunk_001",
+            "labor_law__article_070__chunk_001",
+            "labor_law__article_092__chunk_001",
+            "labor_law__article_095__chunk_001",
+            "labor_law__article_238__chunk_001",
+            "labor_law__article_089__chunk_001"
+          ],
+          "recall_at_10": 1.0,
+          "mrr_at_10": 1.0,
+          "top_1_accuracy": 1.0,
+          "first_relevant_rank": 1,
+          "hit_ids": [
+            "labor_law__article_093__chunk_001"
+          ],
+          "missed_ids": [],
+          "passed": true
+        },
+        {
+          "id": "q016",
+          "query": "ما المقصود بإصابة العمل؟",
+          "relevant_chunk_ids": [
+            "social_insurance_law__article_030__chunk_001",
+            "labor_law__article_134__chunk_001"
+          ],
+          "retrieved_chunk_ids": [
+            "labor_law__article_133__chunk_001",
+            "labor_law__article_134__chunk_001",
+            "social_insurance_law__article_031__chunk_001",
+            "labor_law__article_091__chunk_001",
+            "labor_law__article_135__chunk_001",
+            "labor_law__article_029__chunk_001",
+            "labor_law__article_137__chunk_001",
+            "labor_law__article_139__chunk_001",
+            "labor_law__article_138__chunk_001",
+            "social_insurance_law__article_030__chunk_001"
+          ],
+          "recall_at_10": 1.0,
+          "mrr_at_10": 0.5,
+          "top_1_accuracy": 0.0,
+          "first_relevant_rank": 2,
+          "hit_ids": [
+            "social_insurance_law__article_030__chunk_001",
+            "labor_law__article_134__chunk_001"
+          ],
+          "missed_ids": [],
+          "passed": true
+        },
+        {
+          "id": "q017",
+          "query": "ما حق المصاب إذا عجز مؤقتا عن العمل بسبب إصابة عمل؟",
+          "relevant_chunk_ids": [
+            "labor_law__article_137__chunk_001"
+          ],
+          "retrieved_chunk_ids": [
+            "labor_law__article_137__chunk_001",
+            "labor_law__article_138__chunk_001",
+            "social_insurance_law__article_031__chunk_001",
+            "labor_law__article_029__chunk_001",
+            "social_insurance_law__article_033__chunk_001",
+            "social_insurance_law__article_035__chunk_001",
+            "labor_law__article_139__chunk_001",
+            "labor_law__article_134__chunk_001",
+            "social_insurance_law__article_045__chunk_001",
+            "labor_law__article_133__chunk_001"
+          ],
+          "recall_at_10": 1.0,
+          "mrr_at_10": 1.0,
+          "top_1_accuracy": 1.0,
+          "first_relevant_rank": 1,
+          "hit_ids": [
+            "labor_law__article_137__chunk_001"
+          ],
+          "missed_ids": [],
+          "passed": true
+        },
+        {
+          "id": "q018",
+          "query": "ما فروع التأمينات الاجتماعية؟",
+          "relevant_chunk_ids": [
+            "social_insurance_law__article_003__chunk_001"
+          ],
+          "retrieved_chunk_ids": [
+            "social_insurance_law__article_003__chunk_001",
+            "social_insurance_law__article_001__chunk_001",
+            "social_insurance_law__article_006__chunk_001",
+            "social_insurance_law__article_008__chunk_001",
+            "social_insurance_law__article_012__chunk_001",
+            "social_insurance_law__article_002__chunk_001",
+            "social_insurance_law__article_007__chunk_001",
+            "social_insurance_law__article_004__chunk_001",
+            "social_insurance_law__article_040__chunk_001",
+            "social_insurance_law__article_015__chunk_001"
+          ],
+          "recall_at_10": 1.0,
+          "mrr_at_10": 1.0,
+          "top_1_accuracy": 1.0,
+          "first_relevant_rank": 1,
+          "hit_ids": [
+            "social_insurance_law__article_003__chunk_001"
+          ],
+          "missed_ids": [],
+          "passed": true
+        },
+        {
+          "id": "q019",
+          "query": "على أي أساس تحسب اشتراكات التأمينات الاجتماعية؟",
+          "relevant_chunk_ids": [
+            "social_insurance_law__article_008__chunk_001"
+          ],
+          "retrieved_chunk_ids": [
+            "social_insurance_law__article_008__chunk_001",
+            "social_insurance_law__article_026__chunk_001",
+            "social_insurance_law__article_044__chunk_001",
+            "social_insurance_law__article_034__chunk_001",
+            "social_insurance_law__article_029__chunk_001",
+            "social_insurance_law__article_033__chunk_001",
+            "social_insurance_law__article_002__chunk_001",
+            "social_insurance_law__article_015__chunk_001",
+            "social_insurance_law__article_063__chunk_001",
+            "social_insurance_law__article_063__chunk_002"
+          ],
+          "recall_at_10": 1.0,
+          "mrr_at_10": 1.0,
+          "top_1_accuracy": 1.0,
+          "first_relevant_rank": 1,
+          "hit_ids": [
+            "social_insurance_law__article_008__chunk_001"
+          ],
+          "missed_ids": [],
+          "passed": true
+        },
+        {
+          "id": "q020",
+          "query": "من المسؤول عن دفع اشتراكات التأمينات الاجتماعية؟",
+          "relevant_chunk_ids": [
+            "social_insurance_law__article_009__chunk_001"
+          ],
+          "retrieved_chunk_ids": [
+            "social_insurance_law__article_009__chunk_001",
+            "social_insurance_law__article_044__chunk_001",
+            "social_insurance_law__article_029__chunk_001",
+            "social_insurance_law__article_007__chunk_001",
+            "social_insurance_law__article_026__chunk_001",
+            "social_insurance_law__article_015__chunk_001",
+            "social_insurance_law__article_008__chunk_001",
+            "social_insurance_law__article_002__chunk_001",
+            "social_insurance_law__article_011__chunk_001",
+            "social_insurance_law__article_001__chunk_001"
+          ],
+          "recall_at_10": 1.0,
+          "mrr_at_10": 1.0,
+          "top_1_accuracy": 1.0,
+          "first_relevant_rank": 1,
+          "hit_ids": [
+            "social_insurance_law__article_009__chunk_001"
+          ],
+          "missed_ids": [],
+          "passed": true
+        },
+        {
+          "id": "q021",
+          "query": "كم نسبة الاشتراك في فرع المعاشات؟",
+          "relevant_chunk_ids": [
+            "social_insurance_law__article_015__chunk_001"
+          ],
+          "retrieved_chunk_ids": [
+            "social_insurance_law__article_015__chunk_001",
+            "social_insurance_law__article_044__chunk_001",
+            "social_insurance_law__article_029__chunk_001",
+            "social_insurance_law__article_003__chunk_001",
+            "social_insurance_law__article_014__chunk_001",
+            "social_insurance_law__article_009__chunk_001",
+            "social_insurance_law__article_043__chunk_001",
+            "social_insurance_law__article_025__chunk_001",
+            "social_insurance_law__article_048__chunk_001",
+            "social_insurance_law__article_017__chunk_001"
+          ],
+          "recall_at_10": 1.0,
+          "mrr_at_10": 1.0,
+          "top_1_accuracy": 1.0,
+          "first_relevant_rank": 1,
+          "hit_ids": [
+            "social_insurance_law__article_015__chunk_001"
+          ],
+          "missed_ids": [],
+          "passed": true
+        },
+        {
+          "id": "q022",
+          "query": "كم نسبة اشتراكات فرع الأخطار المهنية؟",
+          "relevant_chunk_ids": [
+            "social_insurance_law__article_029__chunk_001"
+          ],
+          "retrieved_chunk_ids": [
+            "social_insurance_law__article_029__chunk_001",
+            "social_insurance_law__article_044__chunk_001",
+            "social_insurance_law__article_015__chunk_001",
+            "social_insurance_law__article_003__chunk_001",
+            "labor_law__article_132__chunk_001",
+            "social_insurance_law__article_028__chunk_001",
+            "labor_law__article_122__chunk_001",
+            "labor_law__article_141__chunk_001",
+            "social_insurance_law__article_034__chunk_001",
+            "labor_law__article_123__chunk_001"
+          ],
+          "recall_at_10": 1.0,
+          "mrr_at_10": 1.0,
+          "top_1_accuracy": 1.0,
+          "first_relevant_rank": 1,
+          "hit_ids": [
+            "social_insurance_law__article_029__chunk_001"
+          ],
+          "missed_ids": [],
+          "passed": true
+        },
+        {
+          "id": "q023",
+          "query": "كم نسبة اشتراكات التأمين ضد التعطل عن العمل؟",
+          "relevant_chunk_ids": [
+            "social_insurance_law__article_044__chunk_001"
+          ],
+          "retrieved_chunk_ids": [
+            "social_insurance_law__article_044__chunk_001",
+            "social_insurance_law__article_048__chunk_001",
+            "social_insurance_law__article_043__chunk_001",
+            "social_insurance_law__article_045__chunk_001",
+            "social_insurance_law__article_029__chunk_001",
+            "labor_law__article_138__chunk_001",
+            "social_insurance_law__article_046__chunk_001",
+            "social_insurance_law__article_035__chunk_001",
+            "social_insurance_law__article_034__chunk_001",
+            "social_insurance_law__article_015__chunk_001"
+          ],
+          "recall_at_10": 1.0,
+          "mrr_at_10": 1.0,
+          "top_1_accuracy": 1.0,
+          "first_relevant_rank": 1,
+          "hit_ids": [
+            "social_insurance_law__article_044__chunk_001"
+          ],
+          "missed_ids": [],
+          "passed": true
+        },
+        {
+          "id": "q024",
+          "query": "ما حكم المادة 80 من نظام العمل؟",
+          "relevant_chunk_ids": [
+            "labor_law__article_080__chunk_001"
+          ],
+          "retrieved_chunk_ids": [
+            "labor_law__article_080__chunk_001",
+            "labor_law__article_084__chunk_001",
+            "labor_law__article_087__chunk_001",
+            "labor_law__article_088__chunk_001",
+            "labor_law__article_068__chunk_001",
+            "labor_law__article_093__chunk_001",
+            "labor_law__article_098__chunk_001",
+            "labor_law__article_188__chunk_001",
+            "labor_law__article_078__chunk_001",
+            "labor_law__article_081__chunk_001"
+          ],
+          "recall_at_10": 1.0,
+          "mrr_at_10": 1.0,
+          "top_1_accuracy": 1.0,
+          "first_relevant_rank": 1,
+          "hit_ids": [
+            "labor_law__article_080__chunk_001"
+          ],
+          "missed_ids": [],
+          "passed": true
+        },
+        {
+          "id": "q025",
+          "query": "ما حكم المادة 15 من نظام التأمينات الاجتماعية؟",
+          "relevant_chunk_ids": [
+            "social_insurance_law__article_015__chunk_001"
+          ],
+          "retrieved_chunk_ids": [
+            "social_insurance_law__article_015__chunk_001",
+            "social_insurance_law__article_025__chunk_001",
+            "labor_law__article_132__chunk_001",
+            "social_insurance_law__article_020__chunk_001",
+            "social_insurance_law__article_050__chunk_001",
+            "social_insurance_law__article_021__chunk_001",
+            "labor_law__article_137__chunk_001",
+            "labor_law__article_153__chunk_001",
+            "social_insurance_law__article_014__chunk_001",
+            "social_insurance_law__article_051__chunk_001"
+          ],
+          "recall_at_10": 1.0,
+          "mrr_at_10": 1.0,
+          "top_1_accuracy": 1.0,
+          "first_relevant_rank": 1,
+          "hit_ids": [
+            "social_insurance_law__article_015__chunk_001"
+          ],
+          "missed_ids": [],
+          "passed": true
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "semantic_mean_recall_at_10": 0.99,
+    "keyword_mean_recall_at_10": 0.79,
+    "hybrid_mean_recall_at_10": 0.99,
+    "semantic_mrr_at_10": 0.9267,
+    "keyword_mrr_at_10": 0.5847,
+    "hybrid_mrr_at_10": 0.9267,
+    "semantic_top_1_accuracy": 0.88,
+    "keyword_top_1_accuracy": 0.48,
+    "hybrid_top_1_accuracy": 0.88,
+    "best_method_by_recall": "semantic",
+    "best_method_by_mrr": "semantic",
+    "best_method_by_top_1": "semantic"
+  }
+}

@@ -1,0 +1,176 @@
+﻿اختبار توليد الإجابات القانونية
+Generated at: 2026-07-16 10:44:26
+Total queries: 5
+Retrieval top_k: 10
+====================================================================================================
+
+====================================================================================================
+Test Case 1
+====================================================================================================
+
+Question:
+متى يستحق العامل مكافأة نهاية الخدمة؟
+
+----------------------------------------------------------------------------------------------------
+Answer:
+يستحق العامل مكافأة نهاية الخدمة عند انتهاء علاقة العمل. وتُحسب على أساس أجر نصف شهر عن كل سنة من السنوات الخمس الأولى، وأجر شهر عن كل سنة من السنوات التالية، مع احتساب الأجر الأخير أساسًا للحساب، ويستحق عن أجزاء السنة بنسبة ما قضاه منها في العمل. [C1]
+
+وإذا كان انتهاء علاقة العمل بسبب استقالة العامل، فيستحق: ثلث المكافأة إذا كانت خدمته لا تقل عن سنتين متتاليتين ولا تزيد على خمس سنوات، وثلثيها إذا زادت خدمته على خمس سنوات متتالية ولم تبلغ عشر سنوات، والمكافأة كاملة إذا بلغت خدمته عشر سنوات فأكثر. [C2]
+
+----------------------------------------------------------------------------------------------------
+Citations:
+[C1] نظام العمل، المادة 84، chunk_id=labor_law__article_084__chunk_001
+[C2] نظام العمل، المادة 85، chunk_id=labor_law__article_085__chunk_001
+
+----------------------------------------------------------------------------------------------------
+Retrieved Chunks:
+Rank 1 | chunk_id=labor_law__article_084__chunk_001 | law=labor_law | article=84 | method=hybrid_weighted_rrf
+Rank 2 | chunk_id=labor_law__article_085__chunk_001 | law=labor_law | article=85 | method=hybrid_weighted_rrf
+Rank 3 | chunk_id=labor_law__article_077__chunk_001 | law=labor_law | article=77 | method=hybrid_weighted_rrf
+Rank 4 | chunk_id=labor_law__article_086__chunk_001 | law=labor_law | article=86 | method=hybrid_weighted_rrf
+Rank 5 | chunk_id=labor_law__article_111__chunk_001 | law=labor_law | article=111 | method=hybrid_weighted_rrf
+Rank 6 | chunk_id=labor_law__article_080__chunk_001 | law=labor_law | article=80 | method=hybrid_weighted_rrf
+Rank 7 | chunk_id=labor_law__article_177__chunk_001 | law=labor_law | article=177 | method=hybrid_weighted_rrf
+Rank 8 | chunk_id=labor_law__article_109__chunk_001 | law=labor_law | article=109 | method=hybrid_weighted_rrf
+Rank 9 | chunk_id=labor_law__article_242__chunk_001 | law=labor_law | article=242 | method=hybrid_weighted_rrf
+Rank 10 | chunk_id=labor_law__article_088__chunk_001 | law=labor_law | article=88 | method=hybrid_weighted_rrf
+
+----------------------------------------------------------------------------------------------------
+Grounded: True
+Model: gpt-5.4-mini
+
+====================================================================================================
+Test Case 2
+====================================================================================================
+
+Question:
+متى يجوز لصاحب العمل فسخ العقد دون مكافأة أو تعويض؟
+
+----------------------------------------------------------------------------------------------------
+Answer:
+يجوز لصاحب العمل فسخ العقد دون مكافأة أو إشعار أو تعويض في الحالات المحددة حصراً في المادة 80، ومنها: الاعتداء على صاحب العمل أو المسؤولين أثناء العمل أو بسببه، أو عدم أداء الالتزامات الجوهرية أو مخالفة الأوامر المشروعة بعد إنذار كتابي، أو السلوك السيئ أو ما يخل بالشرف والأمانة، أو إحداث خسارة مادية عمداً مع إبلاغ الجهات المختصة خلال 24 ساعة من العلم، أو التزوير للحصول على العمل، أو إذا كان العامل تحت الاختبار، أو التغيب بلا سبب مشروع أكثر من 30 يوماً في السنة العقدية أو أكثر من 15 يوماً متتالية مع الإنذارات الكتابية المطلوبة، أو استغلال المركز الوظيفي بغير حق، أو إفشاء الأسرار الصناعية أو التجارية. [C1]
+
+كما أن الفصل من العمل يعد من الجزاءات التأديبية التي يجوز توقيعها في الحالات المقررة في النظام. [C4]
+
+وفي حالة عقد التأهيل أو التدريب، يجوز لصاحب العمل إنهاؤه إذا ثبت عدم قابلية أو قدرة المتدرب على إكمال البرنامج بصورة مفيدة، ولا يطالب أي من الطرفين بالتعويض إلا إذا نص العقد على ذلك. [C8]
+
+----------------------------------------------------------------------------------------------------
+Citations:
+[C1] نظام العمل، المادة 80، chunk_id=labor_law__article_080__chunk_001
+[C4] نظام العمل، المادة 66، chunk_id=labor_law__article_066__chunk_001
+[C8] نظام العمل، المادة 48، chunk_id=labor_law__article_048__chunk_001
+
+----------------------------------------------------------------------------------------------------
+Retrieved Chunks:
+Rank 1 | chunk_id=labor_law__article_080__chunk_001 | law=labor_law | article=80 | method=hybrid_weighted_rrf
+Rank 2 | chunk_id=labor_law__article_081__chunk_001 | law=labor_law | article=81 | method=hybrid_weighted_rrf
+Rank 3 | chunk_id=labor_law__article_064__chunk_001 | law=labor_law | article=64 | method=hybrid_weighted_rrf
+Rank 4 | chunk_id=labor_law__article_066__chunk_001 | law=labor_law | article=66 | method=hybrid_weighted_rrf
+Rank 5 | chunk_id=labor_law__article_054__chunk_001 | law=labor_law | article=54 | method=hybrid_weighted_rrf
+Rank 6 | chunk_id=labor_law__article_182__chunk_001 | law=labor_law | article=182 | method=hybrid_weighted_rrf
+Rank 7 | chunk_id=labor_law__article_067__chunk_001 | law=labor_law | article=67 | method=hybrid_weighted_rrf
+Rank 8 | chunk_id=labor_law__article_048__chunk_001 | law=labor_law | article=48 | method=hybrid_weighted_rrf
+Rank 9 | chunk_id=labor_law__article_077__chunk_001 | law=labor_law | article=77 | method=hybrid_weighted_rrf
+Rank 10 | chunk_id=labor_law__article_087__chunk_001 | law=labor_law | article=87 | method=hybrid_weighted_rrf
+
+----------------------------------------------------------------------------------------------------
+Grounded: True
+Model: gpt-5.4-mini
+
+====================================================================================================
+Test Case 3
+====================================================================================================
+
+Question:
+ما المقصود بإصابة العمل؟
+
+----------------------------------------------------------------------------------------------------
+Answer:
+إصابة العمل هي كل حادث يقع للمشترك أثناء العمل أو بسببه، ويُعد في حكمها كذلك الحادث الذي يقع للمشترك أثناء طريقه المعتاد من مسكنه إلى مقر عمله والعكس، أو من مقر عمله إلى المكان الذي يتناول فيه عادة طعامه أو يؤدي فيه صلاته والعكس، وكذلك الحوادث التي تقع أثناء تنقلاته لأداء مهمة كلفه بها صاحب العمل. كما تُعد الأمراض المهنية من إصابات العمل، ويُعد تاريخ أول مشاهدة طبية للمرض تاريخًا للإصابة. [C10]
+
+----------------------------------------------------------------------------------------------------
+Citations:
+[C10] نظام التأمينات الاجتماعية، المادة 30، chunk_id=social_insurance_law__article_030__chunk_001
+
+----------------------------------------------------------------------------------------------------
+Retrieved Chunks:
+Rank 1 | chunk_id=labor_law__article_133__chunk_001 | law=labor_law | article=133 | method=hybrid_weighted_rrf
+Rank 2 | chunk_id=labor_law__article_134__chunk_001 | law=labor_law | article=134 | method=hybrid_weighted_rrf
+Rank 3 | chunk_id=social_insurance_law__article_031__chunk_001 | law=social_insurance_law | article=31 | method=hybrid_weighted_rrf
+Rank 4 | chunk_id=labor_law__article_091__chunk_001 | law=labor_law | article=91 | method=hybrid_weighted_rrf
+Rank 5 | chunk_id=labor_law__article_135__chunk_001 | law=labor_law | article=135 | method=hybrid_weighted_rrf
+Rank 6 | chunk_id=labor_law__article_029__chunk_001 | law=labor_law | article=29 | method=hybrid_weighted_rrf
+Rank 7 | chunk_id=labor_law__article_137__chunk_001 | law=labor_law | article=137 | method=hybrid_weighted_rrf
+Rank 8 | chunk_id=labor_law__article_139__chunk_001 | law=labor_law | article=139 | method=hybrid_weighted_rrf
+Rank 9 | chunk_id=labor_law__article_138__chunk_001 | law=labor_law | article=138 | method=hybrid_weighted_rrf
+Rank 10 | chunk_id=social_insurance_law__article_030__chunk_001 | law=social_insurance_law | article=30 | method=hybrid_weighted_rrf
+
+----------------------------------------------------------------------------------------------------
+Grounded: True
+Model: gpt-5.4-mini
+
+====================================================================================================
+Test Case 4
+====================================================================================================
+
+Question:
+كم نسبة الاشتراك في فرع المعاشات؟
+
+----------------------------------------------------------------------------------------------------
+Answer:
+نسبة الاشتراك في فرع المعاشات هي **(22%) من الأجر أو الراتب الخاضع للاشتراك**؛ يتحمل **صاحب العمل (11%)** ويتحمل **المشترك (11%)**. [C1]
+
+أما **المشتركون بصورة اختيارية** فتكون النسبة **(22%) من الأجر الخاضع للاشتراك** ويتحملها **المشترك بالكامل**. [C1]
+
+----------------------------------------------------------------------------------------------------
+Citations:
+[C1] نظام التأمينات الاجتماعية، المادة 15، chunk_id=social_insurance_law__article_015__chunk_001
+
+----------------------------------------------------------------------------------------------------
+Retrieved Chunks:
+Rank 1 | chunk_id=social_insurance_law__article_015__chunk_001 | law=social_insurance_law | article=15 | method=hybrid_weighted_rrf
+Rank 2 | chunk_id=social_insurance_law__article_044__chunk_001 | law=social_insurance_law | article=44 | method=hybrid_weighted_rrf
+Rank 3 | chunk_id=social_insurance_law__article_029__chunk_001 | law=social_insurance_law | article=29 | method=hybrid_weighted_rrf
+Rank 4 | chunk_id=social_insurance_law__article_003__chunk_001 | law=social_insurance_law | article=3 | method=hybrid_weighted_rrf
+Rank 5 | chunk_id=social_insurance_law__article_014__chunk_001 | law=social_insurance_law | article=14 | method=hybrid_weighted_rrf
+Rank 6 | chunk_id=social_insurance_law__article_009__chunk_001 | law=social_insurance_law | article=9 | method=hybrid_weighted_rrf
+Rank 7 | chunk_id=social_insurance_law__article_043__chunk_001 | law=social_insurance_law | article=43 | method=hybrid_weighted_rrf
+Rank 8 | chunk_id=social_insurance_law__article_025__chunk_001 | law=social_insurance_law | article=25 | method=hybrid_weighted_rrf
+Rank 9 | chunk_id=social_insurance_law__article_048__chunk_001 | law=social_insurance_law | article=48 | method=hybrid_weighted_rrf
+Rank 10 | chunk_id=social_insurance_law__article_017__chunk_001 | law=social_insurance_law | article=17 | method=hybrid_weighted_rrf
+
+----------------------------------------------------------------------------------------------------
+Grounded: True
+Model: gpt-5.4-mini
+
+====================================================================================================
+Test Case 5
+====================================================================================================
+
+Question:
+ما هي ضريبة الشركات في السعودية؟
+
+----------------------------------------------------------------------------------------------------
+Answer:
+لا أستطيع الإجابة من النصوص القانونية المسترجعة المتاحة.
+
+----------------------------------------------------------------------------------------------------
+Citations:
+لا توجد استشهادات.
+
+----------------------------------------------------------------------------------------------------
+Retrieved Chunks:
+Rank 1 | chunk_id=labor_law__article_031__chunk_001 | law=labor_law | article=31 | method=hybrid_weighted_rrf
+Rank 2 | chunk_id=social_insurance_law__article_010__chunk_001 | law=social_insurance_law | article=10 | method=hybrid_weighted_rrf
+Rank 3 | chunk_id=labor_law__article_090__chunk_001 | law=labor_law | article=90 | method=hybrid_weighted_rrf
+Rank 4 | chunk_id=labor_law__article_026__chunk_001 | law=labor_law | article=26 | method=hybrid_weighted_rrf
+Rank 5 | chunk_id=labor_law__article_033__chunk_001 | law=labor_law | article=33 | method=hybrid_weighted_rrf
+Rank 6 | chunk_id=labor_law__article_042__chunk_001 | law=labor_law | article=42 | method=hybrid_weighted_rrf
+Rank 7 | chunk_id=social_insurance_law__article_027__chunk_001 | law=social_insurance_law | article=27 | method=hybrid_weighted_rrf
+Rank 8 | chunk_id=labor_law__article_036__chunk_001 | law=labor_law | article=36 | method=hybrid_weighted_rrf
+Rank 9 | chunk_id=labor_law__article_194__chunk_001 | law=labor_law | article=194 | method=hybrid_weighted_rrf
+Rank 10 | chunk_id=social_insurance_law__article_014__chunk_001 | law=social_insurance_law | article=14 | method=hybrid_weighted_rrf
+
+----------------------------------------------------------------------------------------------------
+Grounded: True
+Model: gpt-5.4-mini

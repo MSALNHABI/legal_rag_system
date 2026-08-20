@@ -1,0 +1,206 @@
+[
+  {
+    "id": "q001",
+    "query": "متى يستحق العامل مكافأة نهاية الخدمة؟",
+    "relevant_chunk_ids": [
+      "labor_law__article_084__chunk_001",
+      "labor_law__article_085__chunk_001",
+      "labor_law__article_086__chunk_001",
+      "labor_law__article_087__chunk_001"
+    ],
+    "notes": "End-of-service award rules."
+  },
+  {
+    "id": "q002",
+    "query": "كيف تحسب مكافأة نهاية الخدمة عند انتهاء علاقة العمل؟",
+    "relevant_chunk_ids": [
+      "labor_law__article_084__chunk_001"
+    ],
+    "notes": "Calculation method for end-of-service award."
+  },
+  {
+    "id": "q003",
+    "query": "ما مقدار مكافأة نهاية الخدمة إذا استقال العامل؟",
+    "relevant_chunk_ids": [
+      "labor_law__article_085__chunk_001"
+    ],
+    "notes": "Resignation and end-of-service award."
+  },
+  {
+    "id": "q004",
+    "query": "متى تستحق العاملة مكافأة نهاية الخدمة كاملة؟",
+    "relevant_chunk_ids": [
+      "labor_law__article_087__chunk_001"
+    ],
+    "notes": "Full award in specific cases."
+  },
+  {
+    "id": "q005",
+    "query": "متى يجوز لصاحب العمل فسخ العقد دون مكافأة أو تعويض؟",
+    "relevant_chunk_ids": [
+      "labor_law__article_080__chunk_001"
+    ],
+    "notes": "Employer termination without award or compensation."
+  },
+  {
+    "id": "q006",
+    "query": "متى يحق للعامل ترك العمل دون إشعار مع احتفاظه بحقوقه؟",
+    "relevant_chunk_ids": [
+      "labor_law__article_081__chunk_001"
+    ],
+    "notes": "Worker leaving without notice."
+  },
+  {
+    "id": "q007",
+    "query": "ما المقصود بعقد العمل؟",
+    "relevant_chunk_ids": [
+      "labor_law__article_050__chunk_001"
+    ],
+    "notes": "Definition of employment contract."
+  },
+  {
+    "id": "q008",
+    "query": "متى ينتهي العقد إذا كان لإنجاز عمل معين؟",
+    "relevant_chunk_ids": [
+      "labor_law__article_057__chunk_001"
+    ],
+    "notes": "Contract for a specific task."
+  },
+  {
+    "id": "q009",
+    "query": "هل يجوز نقل العامل من أجر شهري إلى أجر يومي أو أسبوعي؟",
+    "relevant_chunk_ids": [
+      "labor_law__article_059__chunk_001"
+    ],
+    "notes": "Changing wage category."
+  },
+  {
+    "id": "q010",
+    "query": "ما التزامات صاحب العمل عند انتهاء عقد العمل؟",
+    "relevant_chunk_ids": [
+      "labor_law__article_064__chunk_001"
+    ],
+    "notes": "Employer obligations at end of contract."
+  },
+  {
+    "id": "q011",
+    "query": "ما الجزاءات التأديبية التي يجوز توقيعها على العامل؟",
+    "relevant_chunk_ids": [
+      "labor_law__article_066__chunk_001"
+    ],
+    "notes": "Disciplinary penalties."
+  },
+  {
+    "id": "q012",
+    "query": "هل يجوز تشديد الجزاء عند تكرار المخالفة؟",
+    "relevant_chunk_ids": [
+      "labor_law__article_068__chunk_001"
+    ],
+    "notes": "Increasing penalty for repeated violation."
+  },
+  {
+    "id": "q013",
+    "query": "متى يجب دفع أجر العامل وتصفية حقوقه بعد انتهاء الخدمة؟",
+    "relevant_chunk_ids": [
+      "labor_law__article_088__chunk_001"
+    ],
+    "notes": "Final wage settlement."
+  },
+  {
+    "id": "q014",
+    "query": "ما أحكام دفع الأجر للعامل؟",
+    "relevant_chunk_ids": [
+      "labor_law__article_090__chunk_001"
+    ],
+    "notes": "Wage payment rules."
+  },
+  {
+    "id": "q015",
+    "query": "ما الحد الأعلى للحسم من أجر العامل؟",
+    "relevant_chunk_ids": [
+      "labor_law__article_093__chunk_001"
+    ],
+    "notes": "Maximum wage deduction."
+  },
+  {
+    "id": "q016",
+    "query": "ما المقصود بإصابة العمل؟",
+    "relevant_chunk_ids": [
+      "social_insurance_law__article_030__chunk_001",
+      "labor_law__article_134__chunk_001"
+    ],
+    "notes": "Work injury definition."
+  },
+  {
+    "id": "q017",
+    "query": "ما حق المصاب إذا عجز مؤقتا عن العمل بسبب إصابة عمل؟",
+    "relevant_chunk_ids": [
+      "labor_law__article_137__chunk_001"
+    ],
+    "notes": "Temporary disability due to work injury."
+  },
+  {
+    "id": "q018",
+    "query": "ما فروع التأمينات الاجتماعية؟",
+    "relevant_chunk_ids": [
+      "social_insurance_law__article_003__chunk_001"
+    ],
+    "notes": "Branches of social insurance."
+  },
+  {
+    "id": "q019",
+    "query": "على أي أساس تحسب اشتراكات التأمينات الاجتماعية؟",
+    "relevant_chunk_ids": [
+      "social_insurance_law__article_008__chunk_001"
+    ],
+    "notes": "Contribution calculation basis."
+  },
+  {
+    "id": "q020",
+    "query": "من المسؤول عن دفع اشتراكات التأمينات الاجتماعية؟",
+    "relevant_chunk_ids": [
+      "social_insurance_law__article_009__chunk_001"
+    ],
+    "notes": "Employer responsibility for contributions."
+  },
+  {
+    "id": "q021",
+    "query": "كم نسبة الاشتراك في فرع المعاشات؟",
+    "relevant_chunk_ids": [
+      "social_insurance_law__article_015__chunk_001"
+    ],
+    "notes": "Pension branch contribution rate."
+  },
+  {
+    "id": "q022",
+    "query": "كم نسبة اشتراكات فرع الأخطار المهنية؟",
+    "relevant_chunk_ids": [
+      "social_insurance_law__article_029__chunk_001"
+    ],
+    "notes": "Occupational hazards contribution rate."
+  },
+  {
+    "id": "q023",
+    "query": "كم نسبة اشتراكات التأمين ضد التعطل عن العمل؟",
+    "relevant_chunk_ids": [
+      "social_insurance_law__article_044__chunk_001"
+    ],
+    "notes": "Unemployment insurance contribution rate."
+  },
+  {
+    "id": "q024",
+    "query": "ما حكم المادة 80 من نظام العمل؟",
+    "relevant_chunk_ids": [
+      "labor_law__article_080__chunk_001"
+    ],
+    "notes": "Exact article lookup."
+  },
+  {
+    "id": "q025",
+    "query": "ما حكم المادة 15 من نظام التأمينات الاجتماعية؟",
+    "relevant_chunk_ids": [
+      "social_insurance_law__article_015__chunk_001"
+    ],
+    "notes": "Exact article lookup."
+  }
+]

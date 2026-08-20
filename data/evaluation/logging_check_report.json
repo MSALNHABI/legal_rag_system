@@ -1,0 +1,273 @@
+{
+  "log_file": "logs\\rag_queries.jsonl",
+  "total_log_lines": 10,
+  "valid_log_records": 10,
+  "invalid_log_records": 0,
+  "endpoint_counts": {
+    "/chat": 10
+  },
+  "average_latency_ms": 3095.18,
+  "records_missing_required_fields": [],
+  "logging_requirement_passed": true,
+  "latest_logs_sample": [
+    {
+      "timestamp_utc": "2026-07-16T07:48:27.378699+00:00",
+      "endpoint": "/chat",
+      "conversation_id": "c1429cb1-e11b-418b-9aba-c92ffd2b0356",
+      "query": "??? ????? ?????? ?????? ????? ???????",
+      "answer_preview": "لا أستطيع الإجابة من النصوص القانونية المسترجعة المتاحة.",
+      "grounded": true,
+      "model": "gpt-5.4-mini",
+      "top_k": 10,
+      "latency_ms": 1724.35,
+      "retrieved_chunk_ids": [
+        "labor_law__article_088__chunk_001",
+        "labor_law__article_049__chunk_001",
+        "labor_law__article_078__chunk_001",
+        "labor_law__article_191__chunk_001",
+        "labor_law__article_198__chunk_001",
+        "labor_law__article_225__chunk_001",
+        "labor_law__article_089__chunk_001",
+        "labor_law__article_099__chunk_001",
+        "labor_law__article_226__chunk_001",
+        "labor_law__article_091__chunk_001"
+      ],
+      "citation_chunk_ids": []
+    },
+    {
+      "timestamp_utc": "2026-07-16T07:51:21.782597+00:00",
+      "endpoint": "/chat",
+      "conversation_id": "b552fbf2-287c-4100-b45d-fb24ccd31e8b",
+      "query": "متى يستحق العامل مكافأة نهاية الخدمة؟",
+      "answer_preview": "يستحق العامل مكافأة نهاية الخدمة إذا انتهت علاقة العمل، وعندها يلتزم صاحب العمل بدفعها عن مدة خدمة العامل وفق الأجر الأخير، وتحسب على أساس أجر نصف شهر عن كل سنة من السنوات الخمس الأولى، وأجر شهر عن كل سنة من السنوات التالية، مع استحقاقها عن أجزاء السنة بنسبة ما قضاه العامل منها في العمل. [C1]\n\nوإذا ",
+      "grounded": true,
+      "model": "gpt-5.4-mini",
+      "top_k": 10,
+      "latency_ms": 3981.17,
+      "retrieved_chunk_ids": [
+        "labor_law__article_084__chunk_001",
+        "labor_law__article_085__chunk_001",
+        "labor_law__article_077__chunk_001",
+        "labor_law__article_086__chunk_001",
+        "labor_law__article_111__chunk_001",
+        "labor_law__article_080__chunk_001",
+        "labor_law__article_177__chunk_001",
+        "labor_law__article_109__chunk_001",
+        "labor_law__article_242__chunk_001",
+        "labor_law__article_088__chunk_001"
+      ],
+      "citation_chunk_ids": [
+        "labor_law__article_084__chunk_001",
+        "labor_law__article_085__chunk_001"
+      ]
+    },
+    {
+      "timestamp_utc": "2026-07-16T07:54:10.718897+00:00",
+      "endpoint": "/chat",
+      "conversation_id": "7d265acc-91cb-45e9-977a-61e3c9d1ebc2",
+      "query": "متى يجوز لصاحب العمل فسخ العقد دون مكافأة أو تعويض؟",
+      "answer_preview": "يجوز لصاحب العمل فسخ العقد دون مكافأة العامل أو إشعاره أو تعويضه في الحالات المحددة حصراً في المادة الثمانين، مع وجوب إتاحة الفرصة للعامل لإبداء أسباب معارضته للفسخ [C1]. وهذه الحالات هي:  \n1) إذا اعتدى العامل على صاحب العمل أو المدير المسؤول أو أحد رؤسائه أو مرؤوسيه أثناء العمل أو بسببه [C1].  \n2) ",
+      "grounded": true,
+      "model": "gpt-5.4-mini",
+      "top_k": 10,
+      "latency_ms": 3978.15,
+      "retrieved_chunk_ids": [
+        "labor_law__article_080__chunk_001",
+        "labor_law__article_081__chunk_001",
+        "labor_law__article_064__chunk_001",
+        "labor_law__article_066__chunk_001",
+        "labor_law__article_054__chunk_001",
+        "labor_law__article_182__chunk_001",
+        "labor_law__article_067__chunk_001",
+        "labor_law__article_048__chunk_001",
+        "labor_law__article_077__chunk_001",
+        "labor_law__article_087__chunk_001"
+      ],
+      "citation_chunk_ids": [
+        "labor_law__article_080__chunk_001"
+      ]
+    },
+    {
+      "timestamp_utc": "2026-07-16T07:55:20.597129+00:00",
+      "endpoint": "/chat",
+      "conversation_id": "7d265acc-91cb-45e9-977a-61e3c9d1ebc2",
+      "query": "متى يستحق العامل مكافأة نهاية الخدمة؟",
+      "answer_preview": "يستحق العامل مكافأة نهاية الخدمة عند انتهاء علاقة العمل، وعلى صاحب العمل دفعها عن مدة الخدمة وفق الأجر الأخير أساسًا للحساب، بواقع أجر نصف شهر عن كل سنة من السنوات الخمس الأولى، وأجر شهر عن كل سنة من السنوات التالية، وتستحق عن أجزاء السنة بنسبة ما قضاه العامل منها في العمل [C1].\n\nوإذا انتهت علاقة ال",
+      "grounded": true,
+      "model": "gpt-5.4-mini",
+      "top_k": 10,
+      "latency_ms": 2565.56,
+      "retrieved_chunk_ids": [
+        "labor_law__article_084__chunk_001",
+        "labor_law__article_085__chunk_001",
+        "labor_law__article_077__chunk_001",
+        "labor_law__article_086__chunk_001",
+        "labor_law__article_111__chunk_001",
+        "labor_law__article_080__chunk_001",
+        "labor_law__article_177__chunk_001",
+        "labor_law__article_109__chunk_001",
+        "labor_law__article_242__chunk_001",
+        "labor_law__article_088__chunk_001"
+      ],
+      "citation_chunk_ids": [
+        "labor_law__article_084__chunk_001",
+        "labor_law__article_085__chunk_001"
+      ]
+    },
+    {
+      "timestamp_utc": "2026-07-16T07:56:07.651839+00:00",
+      "endpoint": "/chat",
+      "conversation_id": "7d265acc-91cb-45e9-977a-61e3c9d1ebc2",
+      "query": "ما المقصود بإصابة العمل؟",
+      "answer_preview": "تُعد **إصابة العمل** كل حادث يقع للمشترك **أثناء العمل أو بسببه**، ويُعد في حكمها أيضًا الحادث الذي يقع للمشترك **أثناء طريقه المعتاد** من مسكنه إلى مقر عمله والعكس، أو من مقر عمله إلى المكان الذي يتناول فيه عادة طعامه أو يؤدي فيه صلاته والعكس، وكذلك الحوادث التي تقع أثناء تنقلاته لأداء مهمة كلفه به",
+      "grounded": true,
+      "model": "gpt-5.4-mini",
+      "top_k": 10,
+      "latency_ms": 7045.9,
+      "retrieved_chunk_ids": [
+        "labor_law__article_133__chunk_001",
+        "labor_law__article_134__chunk_001",
+        "social_insurance_law__article_031__chunk_001",
+        "labor_law__article_091__chunk_001",
+        "labor_law__article_135__chunk_001",
+        "labor_law__article_029__chunk_001",
+        "labor_law__article_137__chunk_001",
+        "labor_law__article_139__chunk_001",
+        "labor_law__article_138__chunk_001",
+        "social_insurance_law__article_030__chunk_001"
+      ],
+      "citation_chunk_ids": [
+        "labor_law__article_134__chunk_001",
+        "social_insurance_law__article_030__chunk_001"
+      ]
+    },
+    {
+      "timestamp_utc": "2026-07-16T07:57:16.988396+00:00",
+      "endpoint": "/chat",
+      "conversation_id": "7d265acc-91cb-45e9-977a-61e3c9d1ebc2",
+      "query": "كم نسبة الاشتراك في فرع المعاشات؟",
+      "answer_preview": "نسبة الاشتراك في **فرع المعاشات** هي **22% من الأجر أو الراتب الخاضع للاشتراك**، يتحمل **صاحب العمل 11%** ويتحمل **المشترك 11%** [C1].  \n\nوللمشتركين **بصورة اختيارية** تكون النسبة **22%** أيضًا من الأجر الخاضع للاشتراك، ويتحملها **المشترك بالكامل** [C1].",
+      "grounded": true,
+      "model": "gpt-5.4-mini",
+      "top_k": 10,
+      "latency_ms": 2606.82,
+      "retrieved_chunk_ids": [
+        "social_insurance_law__article_015__chunk_001",
+        "social_insurance_law__article_044__chunk_001",
+        "social_insurance_law__article_029__chunk_001",
+        "social_insurance_law__article_003__chunk_001",
+        "social_insurance_law__article_014__chunk_001",
+        "social_insurance_law__article_009__chunk_001",
+        "social_insurance_law__article_043__chunk_001",
+        "social_insurance_law__article_025__chunk_001",
+        "social_insurance_law__article_048__chunk_001",
+        "social_insurance_law__article_017__chunk_001"
+      ],
+      "citation_chunk_ids": [
+        "social_insurance_law__article_015__chunk_001"
+      ]
+    },
+    {
+      "timestamp_utc": "2026-07-16T07:57:33.221427+00:00",
+      "endpoint": "/chat",
+      "conversation_id": "7d265acc-91cb-45e9-977a-61e3c9d1ebc2",
+      "query": "ما هي ضريبة الشركات في السعودية؟",
+      "answer_preview": "لا أستطيع الإجابة من النصوص القانونية المسترجعة المتاحة.",
+      "grounded": true,
+      "model": "gpt-5.4-mini",
+      "top_k": 10,
+      "latency_ms": 2215.18,
+      "retrieved_chunk_ids": [
+        "labor_law__article_031__chunk_001",
+        "social_insurance_law__article_010__chunk_001",
+        "labor_law__article_090__chunk_001",
+        "labor_law__article_026__chunk_001",
+        "labor_law__article_033__chunk_001",
+        "labor_law__article_042__chunk_001",
+        "social_insurance_law__article_027__chunk_001",
+        "labor_law__article_036__chunk_001",
+        "labor_law__article_194__chunk_001",
+        "social_insurance_law__article_014__chunk_001"
+      ],
+      "citation_chunk_ids": []
+    },
+    {
+      "timestamp_utc": "2026-07-16T08:00:22.999234+00:00",
+      "endpoint": "/chat",
+      "conversation_id": "d2c03507-22b2-49fc-a935-090e98fdef00",
+      "query": "المادة 100",
+      "answer_preview": "المادة 100 من نظام العمل تجيز لصاحب العمل، **بموافقة الوزارة**، في المنشآت التي تقتضي طبيعة العمل فيها أداء العمل **بالتناوب**، أن يزيد ساعات العمل على **ثماني ساعات يوميًا** أو **ثمانٍ وأربعين ساعة أسبوعيًا**، بشرط ألا يزيد **متوسط ساعات العمل** عند احتسابه لمدة **ثلاثة أسابيع أو أقل** على ثماني سا",
+      "grounded": true,
+      "model": "gpt-5.4-mini",
+      "top_k": 10,
+      "latency_ms": 2748.94,
+      "retrieved_chunk_ids": [
+        "labor_law__article_100__chunk_001",
+        "labor_law__article_001__chunk_001",
+        "labor_law__article_101__chunk_001",
+        "labor_law__article_127__chunk_001",
+        "labor_law__article_200__chunk_001",
+        "labor_law__article_235__chunk_001",
+        "labor_law__article_210__chunk_001",
+        "labor_law__article_225__chunk_001",
+        "labor_law__article_245__chunk_001",
+        "labor_law__article_132__chunk_001"
+      ],
+      "citation_chunk_ids": [
+        "labor_law__article_100__chunk_001"
+      ]
+    },
+    {
+      "timestamp_utc": "2026-07-16T08:00:39.788601+00:00",
+      "endpoint": "/chat",
+      "conversation_id": "d2c03507-22b2-49fc-a935-090e98fdef00",
+      "query": "المادة 20",
+      "answer_preview": "المادة 20 من نظام العمل تنص على أنه لا يجوز لصاحب العمل أو العامل إساءة استعمال أحكام النظام أو القرارات واللوائح الصادرة لتنفيذه، كما لا يجوز لأي منهما القيام بما يضغط على حرية الآخر أو حرية عمال أو أصحاب عمل آخرين لتحقيق مصلحة أو وجهة نظر تتعارض مع حرية العمل أو اختصاص الجهة المختصة بتسوية الخلافا",
+      "grounded": true,
+      "model": "gpt-5.4-mini",
+      "top_k": 10,
+      "latency_ms": 2142.29,
+      "retrieved_chunk_ids": [
+        "labor_law__article_020__chunk_001",
+        "social_insurance_law__article_020__chunk_001",
+        "labor_law__article_001__chunk_001",
+        "labor_law__article_127__chunk_001",
+        "labor_law__article_220__chunk_001",
+        "labor_law__article_200__chunk_001",
+        "labor_law__article_229__chunk_001",
+        "labor_law__article_232__chunk_001",
+        "labor_law__article_239__chunk_001",
+        "labor_law__article_235__chunk_001"
+      ],
+      "citation_chunk_ids": [
+        "labor_law__article_020__chunk_001"
+      ]
+    },
+    {
+      "timestamp_utc": "2026-07-16T08:00:56.032189+00:00",
+      "endpoint": "/chat",
+      "conversation_id": "d2c03507-22b2-49fc-a935-090e98fdef00",
+      "query": "المادة 20 من نظام التامينات",
+      "answer_preview": "المادة 20 من نظام التأمينات الاجتماعية تنص على أنه إذا حدث **عجز غير مهني** للمشترك وهو **ليس على رأس العمل الخاضع لأحكام النظام**، وبلغت مدة اشتراكه **المدة المؤهلة لاستحقاق المعاش** المنصوص عليها في الفقرة (2) من المادة (16)، فإنه يحق له الحصول على المعاش وفق أحكام الفقرتين (1) و(2) من المادة (17)",
+      "grounded": true,
+      "model": "gpt-5.4-mini",
+      "top_k": 10,
+      "latency_ms": 1943.49,
+      "retrieved_chunk_ids": [
+        "social_insurance_law__article_020__chunk_001",
+        "labor_law__article_132__chunk_001",
+        "social_insurance_law__article_022__chunk_001",
+        "labor_law__article_020__chunk_001",
+        "social_insurance_law__article_053__chunk_001",
+        "social_insurance_law__article_021__chunk_001",
+        "social_insurance_law__article_025__chunk_001",
+        "labor_law__article_137__chunk_001",
+        "labor_law__article_019__chunk_001",
+        "social_insurance_law__article_063__chunk_001"
+      ],
+      "citation_chunk_ids": [
+        "social_insurance_law__article_020__chunk_001"
+      ]
+    }
+  ]
+}
