@@ -5,6 +5,8 @@ A Retrieval-Augmented Generation (RAG) system for answering Arabic legal questio
 The system is designed as an Arabic-first legal assistant. It retrieves relevant legal articles, generates grounded answers, and displays citations so the user can verify the source of each answer.
 
 ---
+![Project Screenshot](screenshots/frontend.png)
+---
 
 ## 1. Project Overview
 
